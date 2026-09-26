@@ -27,7 +27,9 @@ ln -s .venv.nosync .venv
 cp .env.example .env                  # add TIINGO_API_KEY
 ```
 
-Pipeline order: `download_finra.py`, `download_prices.py`, `build_industry.py`.
+Pipeline order: `download_finra.py`, `download_prices.py`, `build_industry.py`, `build_panel.py`.
+
+Then open the notebooks with `.venv/bin/jupyter lab`, starting with `notebooks/01_data_quality.ipynb`.
 
 ## Key documents
 
