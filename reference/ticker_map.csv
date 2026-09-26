@@ -44,3 +44,4 @@ FB,META,yfinance,rename,Facebook to Meta; yfinance FB is now another company
 LB,BBWI,yfinance,rename,L Brands to Bath & Body Works; yfinance LB is now another company
 BBT,TFC,yfinance,rename,BB&T to Truist; yfinance BBT is now another company
 PARA,PSKY,yfinance,rename,Paramount to Paramount Skydance; yfinance PARA is now another company
+BBBY,BBBYQ,tiingo,bankrupt_otc,Bed Bath & Beyond; history continues under OTC ticker
