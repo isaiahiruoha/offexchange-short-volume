@@ -61,10 +61,39 @@ def known_names_and_ciks() -> tuple[dict, dict]:
     return cik, names
 
 
-def search_cik(name: str) -> int | None:
-    r = _get("https://efts.sec.gov/LATEST/search-index", params={"keysTyped": name})
-    hits = r.json().get("hits", {}).get("hits", [])
-    return int(hits[0]["_id"]) if hits else None
+STOPWORDS = {"the", "inc", "corp", "corporation", "co", "company", "companies", "plc", "ltd",
+             "holdings", "group", "incorporated", "class", "a", "b", "c", "de"}
+
+
+def _core_words(name: str) -> list[str]:
+    name = re.sub(r"\(.*?\)", " ", name.lower()).replace("'", "").replace("’", "")
+    return [w for w in re.findall(r"[a-z0-9&]+", name) if w not in STOPWORDS]
+
+
+def _search(query: str) -> list[dict]:
+    for attempt in range(4):
+        r = _get("https://efts.sec.gov/LATEST/search-index", params={"keysTyped": query})
+        if r.ok and "hits" in r.json():
+            return [{"cik": int(h["_id"]), **h["_source"]} for h in r.json()["hits"]["hits"]]
+        time.sleep(2**attempt)
+    raise RuntimeError(f"SEC search failed for {query!r}")
+
+
+def name_candidates(name: str) -> list[int]:
+    """SEC entities whose name starts like this company's name (spaces ignored)."""
+    key = "".join(_core_words(name))[:6]
+    if not key:
+        return []
+    hits = _search(" ".join(_core_words(name)[:2]))
+    return [h["cik"] for h in hits if "".join(_core_words(h.get("entity", ""))).startswith(key)]
+
+
+def search_by_ticker(ticker: str) -> int | None:
+    """SEC entity currently listed under exactly this ticker."""
+    for hit in _search(ticker):
+        if ticker in (hit.get("tickers") or "").split(", "):
+            return hit["cik"]
+    return None
 
 
 def sic_for(cik: int) -> tuple[int | None, str]:
@@ -84,11 +113,17 @@ def build(sources: pd.DataFrame) -> pd.DataFrame:
         # company name is a safer key than the ticker.
         if t in wiki_cik or pt in wiki_cik:
             cik, how = wiki_cik.get(t) or wiki_cik.get(pt), "wikipedia"
-        elif t in names:
-            cik, how = search_cik(names[t]), "sec_name_search"
+            sic, sec_name = sic_for(int(cik))
         else:
-            cik, how = search_cik(pt), "sec_ticker_search"
-        sic, sec_name = sic_for(int(cik)) if cik else (None, "")
+            # Name matches include funds and shells with no SIC; take the first real company.
+            candidates = name_candidates(names[t]) if t in names else []
+            candidates.append(search_by_ticker(pt))
+            cik, sic, sec_name, how = None, None, "", "unresolved"
+            for c in filter(None, candidates):
+                sic, sec_name = sic_for(c)
+                if sic:
+                    cik, how = c, "sec_search"
+                    break
         rows.append((t, names.get(t, ""), cik, sec_name, sic, sic_to_ff12(sic, ranges), how))
     out = pd.DataFrame(
         rows, columns=["sp500_ticker", "name", "cik", "sec_name", "sic", "ff12", "cik_source"]
@@ -99,8 +134,5 @@ def build(sources: pd.DataFrame) -> pd.DataFrame:
 
 def _same_company(a: str, b: str) -> bool:
     """Loose check that two company names share their first real word."""
-    def first(s):
-        words = re.findall(r"[a-z0-9]+", s.lower())
-        words = [w for w in words if w not in {"the", "inc", "corp", "co"}]
-        return words[0] if words else ""
-    return bool(a) and bool(b) and first(a) == first(b)
+    wa, wb = _core_words(a), _core_words(b)
+    return bool(wa) and bool(wb) and wa[0] == wb[0]

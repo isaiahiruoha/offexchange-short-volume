@@ -93,6 +93,27 @@ Returns around mergers and spin-offs in these names need a sanity check for jump
 
 FINRA files are keyed on the point-in-time ticker (for example, FB before 2022 and META after), so the same map is needed to join short volume to prices.
 
+Both price sources return the newest company for a reused ticker.
+yfinance "FB" is not Meta, and Tiingo "DNB" is the 2020 re-IPO, not the old Dun & Bradstreet.
+Two checks catch this:
+
+1. **Coverage:** a source is used only if it has prices for at least 90% of the ticker's days in the index.
+2. **Volume agreement with FINRA:** the same stock's off-exchange and total volume move together, with a quarterly log-volume correlation of usually 0.8-0.9 and at least 0.4 even for thin names like NVR.
+   Wrong-company stretches sit at 0.04-0.5.
+   For example, IR in 2017-2019 (Gardner Denver data under the Ingersoll-Rand ticker) jumps to 0.89 in 2020 Q1, when the ticker actually moved.
+   Ticker-quarters below 0.5 are dropped.
+
+Unrecoverable from free sources: CCE, ESV and EQR (merged with AvalonBay in 2026; the combined ticker carries AvalonBay's history).
+
+### Join quirks
+
+- FINRA writes class shares as `BRK/B`; the membership list writes `BRK.B`.
+- The ticker `NA` is read as a missing value by pandas unless `keep_default_na=False` is set.
+
+### Industry
+
+Fama-French 12 industries come from SEC SIC codes: 526 CIKs from Wikipedia's constituent table, 198 from SEC search, and 19 set by hand in `reference/industry_overrides.csv`.
+
 ### Point-in-time membership
 
 `fja05680/sp500` is current: the last snapshot is dated 2026-08-18.

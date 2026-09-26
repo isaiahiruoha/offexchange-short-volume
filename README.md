@@ -21,12 +21,15 @@ slides/           presentation drafts
 ## Setup
 
 ```bash
-python3 -m venv .venv
-.venv/bin/pip install -e ".[dev]"
-cp .env.example .env   # add keys if using Tiingo
+python3 -m venv .venv.nosync          # .nosync keeps iCloud from hiding files Python needs
+ln -s .venv.nosync .venv
+.venv/bin/pip install -e ".[dev]" lxml
+cp .env.example .env                  # add TIINGO_API_KEY
 ```
+
+Pipeline order: `download_finra.py`, `download_prices.py`, `build_industry.py`.
 
 ## Key documents
 
 - `docs/data_findings.md` - verified facts about the data sources
-- `docs/preregistration.md` - evaluation criteria, written before looking at results
+- `docs/preregistration.md` - evaluation criteria, frozen before looking at results

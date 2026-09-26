@@ -1,12 +1,12 @@
 sp500_ticker,name,cik,sec_name,sic,ff12,cik_source,name_check
 A,Agilent Technologies,1090872.0,"AGILENT TECHNOLOGIES, INC.",3826.0,BusEq,wikipedia,True
-AABA,,1769824.0,"AABA, Inc.",,Other,sec_ticker_search,False
-AAL,American Airlines Group,6201.0,American Airlines Group Inc.,4512.0,Other,sec_name_search,True
-AAP,Advance Auto Parts,1158449.0,ADVANCE AUTO PARTS INC,5531.0,Shops,sec_name_search,True
+AABA,,,,,Money,manual,False
+AAL,American Airlines Group,6201.0,American Airlines Group Inc.,4512.0,Other,sec_search,True
+AAP,Advance Auto Parts,1158449.0,ADVANCE AUTO PARTS INC,5531.0,Shops,sec_search,True
 AAPL,Apple Inc.,320193.0,Apple Inc.,3571.0,BusEq,wikipedia,True
 ABBV,AbbVie,1551152.0,AbbVie Inc.,2834.0,Hlth,wikipedia,True
 ABC,,1140859.0,"Cencora, Inc.",5122.0,Shops,wikipedia,False
-ABMD,Abiomed,815094.0,ABIOMED INC,3841.0,Hlth,sec_name_search,True
+ABMD,Abiomed,815094.0,ABIOMED INC,3841.0,Hlth,sec_search,True
 ABNB,Airbnb,1559720.0,"Airbnb, Inc.",7340.0,Other,wikipedia,True
 ABT,Abbott Laboratories,1800.0,ABBOTT LABORATORIES,2834.0,Hlth,wikipedia,True
 ACGL,Arch Capital Group,947484.0,ARCH CAPITAL GROUP LTD.,6331.0,Money,wikipedia,True
@@ -15,45 +15,45 @@ ADBE,Adobe Inc.,796343.0,ADOBE INC.,7372.0,BusEq,wikipedia,True
 ADI,Analog Devices,6281.0,ANALOG DEVICES INC,3674.0,BusEq,wikipedia,True
 ADM,Archer Daniels Midland,7084.0,Archer-Daniels-Midland Co,2070.0,NoDur,wikipedia,True
 ADP,Automatic Data Processing,8670.0,AUTOMATIC DATA PROCESSING INC,7374.0,BusEq,wikipedia,True
-ADS,Alliance Data Systems,,,,Other,sec_name_search,False
+ADS,Alliance Data Systems,1101215.0,"BREAD FINANCIAL HOLDINGS, INC.",6141.0,Money,sec_search,False
 ADSK,Autodesk,769397.0,"Autodesk, Inc.",7372.0,BusEq,wikipedia,True
-ADT,ADT,1703056.0,ADT Inc.,7381.0,Other,sec_name_search,True
+ADT,ADT,1703056.0,ADT Inc.,7381.0,Other,sec_search,True
 AEE,Ameren,1002910.0,AMEREN CORP,4931.0,Utils,wikipedia,True
 AEP,American Electric Power,4904.0,AMERICAN ELECTRIC POWER CO INC,4911.0,Utils,wikipedia,True
 AES,AES Corporation,874761.0,AES CORP,4991.0,Other,wikipedia,True
-AET,Aetna,1122304.0,AETNA INC /PA/,6324.0,Money,sec_name_search,True
+AET,Aetna,1122304.0,AETNA INC /PA/,6324.0,Money,sec_search,True
 AFL,Aflac,4977.0,AFLAC INC,6321.0,Money,wikipedia,True
-AGN,Allergan,850693.0,ALLERGAN INC,2834.0,Hlth,sec_name_search,True
+AGN,Allergan,850693.0,ALLERGAN INC,2834.0,Hlth,sec_search,True
 AIG,American International Group,5272.0,"AMERICAN INTERNATIONAL GROUP, INC.",6331.0,Money,wikipedia,True
-AIV,Aimco,1820878.0,Aimco OP L.P.,6500.0,Money,sec_name_search,True
+AIV,Aimco,1820878.0,Aimco OP L.P.,6500.0,Money,sec_search,True
 AIZ,Assurant,1267238.0,"ASSURANT, INC.",6399.0,Money,wikipedia,True
 AJG,Arthur J. Gallagher & Co.,354190.0,Arthur J. Gallagher & Co.,6411.0,Money,wikipedia,True
 AKAM,Akamai Technologies,1086222.0,AKAMAI TECHNOLOGIES INC,7389.0,Other,wikipedia,True
 ALB,Albemarle Corporation,915913.0,ALBEMARLE CORP,2821.0,Chems,wikipedia,True
 ALGN,Align Technology,1097149.0,ALIGN TECHNOLOGY INC,3842.0,Hlth,wikipedia,True
-ALK,Alaska Air Group,766421.0,"ALASKA AIR GROUP, INC.",4512.0,Other,sec_name_search,True
+ALK,Alaska Air Group,766421.0,"ALASKA AIR GROUP, INC.",4512.0,Other,sec_search,True
 ALL,Allstate,899051.0,ALLSTATE CORP,6331.0,Money,wikipedia,True
 ALLE,Allegion,1579241.0,Allegion plc,7381.0,Other,wikipedia,True
-ALXN,Alexion Pharmaceuticals,899866.0,"ALEXION PHARMACEUTICALS, INC.",2834.0,Hlth,sec_name_search,True
+ALXN,Alexion Pharmaceuticals,899866.0,"ALEXION PHARMACEUTICALS, INC.",2834.0,Hlth,sec_search,True
 AMAT,Applied Materials,6951.0,APPLIED MATERIALS INC /DE,3674.0,BusEq,wikipedia,True
 AMCR,Amcor,1748790.0,Amcor plc,3990.0,Durbl,wikipedia,True
 AMD,Advanced Micro Devices,2488.0,ADVANCED MICRO DEVICES INC,3674.0,BusEq,wikipedia,True
 AME,Ametek,1037868.0,AMETEK INC/,3823.0,BusEq,wikipedia,True
-AMG,Affiliated Managers Group,1004434.0,"AFFILIATED MANAGERS GROUP, INC.",6282.0,Money,sec_name_search,True
+AMG,Affiliated Managers Group,1004434.0,"AFFILIATED MANAGERS GROUP, INC.",6282.0,Money,sec_search,True
 AMGN,Amgen,318154.0,AMGEN INC,2836.0,Hlth,wikipedia,True
 AMP,Ameriprise Financial,820027.0,AMERIPRISE FINANCIAL INC,6282.0,Money,wikipedia,True
 AMT,American Tower,1053507.0,AMERICAN TOWER CORP /MA/,6798.0,Money,wikipedia,True
-AMTM,Amentum,2011286.0,"Amentum Holdings, Inc.",7389.0,Other,sec_name_search,True
+AMTM,Amentum,2011286.0,"Amentum Holdings, Inc.",7389.0,Other,sec_search,True
 AMZN,Amazon,1018724.0,AMAZON COM INC,5961.0,Shops,wikipedia,True
-AN,AutoNation,350698.0,"AUTONATION, INC.",5500.0,Shops,sec_name_search,True
-ANDV,Andeavor,50104.0,ANDEAVOR LLC,2911.0,Enrgy,sec_name_search,True
+AN,AutoNation,350698.0,"AUTONATION, INC.",5500.0,Shops,sec_search,True
+ANDV,Andeavor,50104.0,ANDEAVOR LLC,2911.0,Enrgy,sec_search,True
 ANET,Arista Networks,1596532.0,"Arista Networks, Inc.",3576.0,BusEq,wikipedia,True
-ANSS,Ansys,1013462.0,ANSYS INC,7372.0,BusEq,sec_name_search,True
+ANSS,Ansys,1013462.0,ANSYS INC,7372.0,BusEq,sec_search,True
 ANTM,,1156039.0,"Elevance Health, Inc.",6324.0,Money,wikipedia,False
 AON,Aon plc,315293.0,Aon plc,6411.0,Money,wikipedia,True
 AOS,A. O. Smith,91142.0,SMITH A O CORP,3630.0,Durbl,wikipedia,False
 APA,APA Corporation,1841666.0,APA Corp,1311.0,Enrgy,wikipedia,True
-APC,Anadarko Petroleum,773910.0,ANADARKO PETROLEUM CORP,1311.0,Enrgy,sec_name_search,True
+APC,Anadarko Petroleum,773910.0,ANADARKO PETROLEUM CORP,1311.0,Enrgy,sec_search,True
 APD,Air Products,2969.0,"Air Products & Chemicals, Inc.",2810.0,Chems,wikipedia,True
 APH,Amphenol,820313.0,AMPHENOL CORP /DE/,3678.0,BusEq,wikipedia,True
 APO,Apollo Global Management,1858681.0,"Apollo Global Management, Inc.",6282.0,Money,wikipedia,True
@@ -61,78 +61,78 @@ APP,AppLovin,1751008.0,AppLovin Corp,7370.0,BusEq,wikipedia,True
 APTV,Aptiv,1521332.0,Aptiv PLC,3714.0,Durbl,wikipedia,True
 ARE,Alexandria Real Estate Equities,1035443.0,"ALEXANDRIA REAL ESTATE EQUITIES, INC.",6798.0,Money,wikipedia,True
 ARES,Ares Management,1176948.0,Ares Management Corp,6282.0,Money,wikipedia,True
-ARG,Airgas,804212.0,AIRGAS INC,5084.0,Shops,sec_name_search,True
+ARG,Airgas,804212.0,AIRGAS INC,5084.0,Shops,sec_search,True
 ARNC,Arconic,4281.0,Howmet Aerospace Inc.,3350.0,Manuf,wikipedia,False
 ATO,Atmos Energy,731802.0,ATMOS ENERGY CORP,4924.0,Utils,wikipedia,True
-ATVI,Activision Blizzard,718877.0,"Activision Blizzard, Inc.",7372.0,BusEq,sec_name_search,True
-AVB,AvalonBay Communities,915912.0,AVALONBAY COMMUNITIES INC,6798.0,Money,sec_name_search,True
+ATVI,Activision Blizzard,718877.0,"Activision Blizzard, Inc.",7372.0,BusEq,sec_search,True
+AVB,AvalonBay Communities,915912.0,AVALONBAY COMMUNITIES INC,6798.0,Money,sec_search,True
 AVGO,Broadcom,1730168.0,Broadcom Inc.,3674.0,BusEq,wikipedia,True
 AVY,Avery Dennison,8818.0,Avery Dennison Corp,2670.0,Manuf,wikipedia,True
 AWK,American Water Works,1410636.0,"American Water Works Company, Inc.",4941.0,Utils,wikipedia,True
 AXON,Axon Enterprise,1069183.0,"AXON ENTERPRISE, INC.",3480.0,Manuf,wikipedia,True
 AXP,American Express,4962.0,AMERICAN EXPRESS CO,6199.0,Money,wikipedia,True
-AYI,Acuity Brands,1495451.0,"Acuity Brands Lighting, Inc.",3640.0,Durbl,sec_name_search,True
+AYI,Acuity Brands,1495451.0,"Acuity Brands Lighting, Inc.",3640.0,Durbl,sec_search,True
 AZO,AutoZone,866787.0,AUTOZONE INC,5531.0,Shops,wikipedia,True
 BA,Boeing,12927.0,BOEING CO,3721.0,Manuf,wikipedia,True
 BAC,Bank of America,70858.0,BANK OF AMERICA CORP /DE/,6021.0,Money,wikipedia,True
 BALL,Ball Corporation,9389.0,BALL Corp,3411.0,Manuf,wikipedia,True
 BAX,Baxter International,10456.0,BAXTER INTERNATIONAL INC,3841.0,Hlth,wikipedia,True
-BBBY,Bed Bath & Beyond,1950894.0,Bed Bath & Beyond Canada L.P.,,Other,sec_name_search,True
-BBT,,1108134.0,Beacon Financial Corp,6036.0,Money,sec_ticker_search,False
-BBWI,"Bath & Body Works, Inc.",701985.0,"Bath & Body Works, Inc.",5990.0,Shops,sec_name_search,True
+BBBY,Bed Bath & Beyond,,Bed Bath & Beyond of California Ltd Liability Co,,Shops,manual,True
+BBT,,1108134.0,Beacon Financial Corp,6036.0,Money,sec_search,False
+BBWI,"Bath & Body Works, Inc.",701985.0,"Bath & Body Works, Inc.",5990.0,Shops,sec_search,True
 BBY,Best Buy,764478.0,BEST BUY CO INC,5731.0,Shops,wikipedia,True
-BCR,CR Bard,2150272.0,Bard & Hops Crux LLC,,Other,sec_name_search,False
+BCR,CR Bard,,,,Hlth,manual,False
 BDX,Becton Dickinson,10795.0,BECTON DICKINSON & CO,3841.0,Hlth,wikipedia,True
 BEN,Franklin Resources,38777.0,FRANKLIN TEMPLETON INC,6282.0,Money,wikipedia,True
 BF.B,Brown–Forman,14693.0,BROWN FORMAN CORP,2080.0,NoDur,wikipedia,True
 BG,Bunge Global,1996862.0,Bunge Global SA,2070.0,NoDur,wikipedia,True
-BHF,Brighthouse Financial,1685040.0,"Brighthouse Financial, Inc.",6311.0,Money,sec_name_search,True
+BHF,Brighthouse Financial,1685040.0,"Brighthouse Financial, Inc.",6311.0,Money,sec_search,True
 BHGE,,1701605.0,Baker Hughes Co,3533.0,Manuf,wikipedia,False
 BIIB,Biogen,875045.0,BIOGEN INC.,2836.0,Hlth,wikipedia,True
-BIO,Bio-Rad Laboratories,12208.0,"BIO-RAD LABORATORIES, INC.",3826.0,BusEq,sec_name_search,True
+BIO,Bio-Rad Laboratories,12208.0,"BIO-RAD LABORATORIES, INC.",3826.0,BusEq,sec_search,True
 BK,,1390777.0,Bank of New York Mellon Corp,6022.0,Money,wikipedia,False
 BKNG,Booking Holdings,1075531.0,Booking Holdings Inc.,4700.0,Other,wikipedia,True
 BKR,Baker Hughes,1701605.0,Baker Hughes Co,3533.0,Manuf,wikipedia,True
-BLDR,Builders FirstSource,1316835.0,"Builders FirstSource, Inc.",5211.0,Shops,sec_name_search,True
+BLDR,Builders FirstSource,1316835.0,"Builders FirstSource, Inc.",5211.0,Shops,sec_search,True
 BLK,BlackRock,2012383.0,"BlackRock, Inc.",6211.0,Money,wikipedia,True
 BLL,,9389.0,BALL Corp,3411.0,Manuf,wikipedia,False
 BMY,Bristol Myers Squibb,14272.0,BRISTOL MYERS SQUIBB CO,2834.0,Hlth,wikipedia,True
 BNY,BNY Mellon,1390777.0,Bank of New York Mellon Corp,6022.0,Money,wikipedia,False
 BR,Broadridge Financial Solutions,1383312.0,"BROADRIDGE FINANCIAL SOLUTIONS, INC.",7389.0,Other,wikipedia,True
-BRCM,Broadcom Corporation,,,,Other,sec_name_search,False
+BRCM,Broadcom Corporation,1730168.0,Broadcom Inc.,3674.0,BusEq,sec_search,True
 BRK.B,Berkshire Hathaway,1067983.0,BERKSHIRE HATHAWAY INC,6331.0,Money,wikipedia,True
 BRO,Brown & Brown,79282.0,"BROWN & BROWN, INC.",6411.0,Money,wikipedia,True
 BSX,Boston Scientific,885725.0,BOSTON SCIENTIFIC CORP,3841.0,Hlth,wikipedia,True
-BWA,BorgWarner,908255.0,BORGWARNER INC,3714.0,Durbl,sec_name_search,True
+BWA,BorgWarner,908255.0,BORGWARNER INC,3714.0,Durbl,sec_search,True
 BX,Blackstone Inc.,1393818.0,Blackstone Inc.,6282.0,Money,wikipedia,True
-BXLT,Baxalta,1620546.0,Baxalta Inc,2834.0,Hlth,sec_name_search,True
+BXLT,Baxalta,1620546.0,Baxalta Inc,2834.0,Hlth,sec_search,True
 BXP,"BXP, Inc.",1037540.0,"BXP, Inc.",6798.0,Money,wikipedia,True
 C,Citigroup,831001.0,CITIGROUP INC,6021.0,Money,wikipedia,True
-CA,CA Technologies,1376793.0,"Cavitation Technologies, Inc.",700.0,NoDur,sec_name_search,False
-CAG,Conagra Brands,23217.0,CONAGRA BRANDS INC.,2000.0,NoDur,sec_name_search,True
+CA,CA Technologies,,,,BusEq,manual,False
+CAG,Conagra Brands,23217.0,CONAGRA BRANDS INC.,2000.0,NoDur,sec_search,True
 CAH,Cardinal Health,721371.0,CARDINAL HEALTH INC,5122.0,Shops,wikipedia,True
-CAM,Cameron International,1281057.0,CAMERON INTERNATIONAL INC,9995.0,Other,sec_name_search,True
+CAM,Cameron International,1281057.0,CAMERON INTERNATIONAL INC,9995.0,Other,sec_search,True
 CARR,Carrier Global,1783180.0,CARRIER GLOBAL Corp,3585.0,Manuf,wikipedia,True
-CASY,Casey's,726958.0,CASEYS GENERAL STORES INC,5500.0,Shops,wikipedia,False
+CASY,Casey's,726958.0,CASEYS GENERAL STORES INC,5500.0,Shops,wikipedia,True
 CAT,Caterpillar Inc.,18230.0,CATERPILLAR INC,3531.0,Manuf,wikipedia,True
 CB,Chubb Limited,896159.0,Chubb Ltd,6331.0,Money,wikipedia,True
 CBOE,Cboe Global Markets,1374310.0,"Cboe Global Markets, Inc.",6200.0,Money,wikipedia,True
 CBRE,CBRE Group,1138118.0,"CBRE GROUP, INC.",6500.0,Money,wikipedia,True
 CBS,,2041610.0,Paramount Skydance Corp,4833.0,Telcm,wikipedia,False
-CCEP,,1650107.0,COCA-COLA EUROPACIFIC PARTNERS plc,2086.0,NoDur,sec_ticker_search,False
+CCEP,,1650107.0,COCA-COLA EUROPACIFIC PARTNERS plc,2086.0,NoDur,sec_search,False
 CCI,Crown Castle,1051470.0,CROWN CASTLE INC.,6798.0,Money,wikipedia,True
 CCL,Carnival Corporation,815097.0,Carnival Corp Ltd.,4400.0,Other,wikipedia,True
-CDAY,Ceridian,1124887.0,CERIDIAN LLC,8742.0,Other,sec_name_search,True
+CDAY,Ceridian,1124887.0,CERIDIAN LLC,8742.0,Other,sec_search,True
 CDNS,Cadence Design Systems,813672.0,CADENCE DESIGN SYSTEMS INC,7372.0,BusEq,wikipedia,True
 CDW,CDW Corporation,1402057.0,CDW Corp,5961.0,Shops,wikipedia,True
-CE,Celanese,1306830.0,Celanese Corp,2820.0,Chems,sec_name_search,True
+CE,Celanese,1306830.0,Celanese Corp,2820.0,Chems,sec_search,True
 CEG,Constellation Energy,1868275.0,Constellation Energy Corp,4911.0,Utils,wikipedia,True
-CELG,Celgene,816284.0,CELGENE CORP /DE/,2834.0,Hlth,sec_name_search,True
-CERN,Cerner,804753.0,CERNER Corp,7373.0,BusEq,sec_name_search,True
+CELG,Celgene,816284.0,CELGENE CORP /DE/,2834.0,Hlth,sec_search,True
+CERN,Cerner,804753.0,CERNER Corp,7373.0,BusEq,sec_search,True
 CF,CF Industries,1324404.0,"CF Industries Holdings, Inc.",2870.0,Chems,wikipedia,True
 CFG,Citizens Financial Group,759944.0,CITIZENS FINANCIAL GROUP INC/RI,6022.0,Money,wikipedia,True
 CHD,Church & Dwight,313927.0,CHURCH & DWIGHT CO INC /DE/,2840.0,Chems,wikipedia,True
-CHK,Chesapeake Energy,1765821.0,Flowtex Energy Chesapeake JV,,Other,sec_name_search,False
+CHK,Chesapeake Energy,1064204.0,CHESAPEAKE ENERGY LOUISIANA LLC,1381.0,Enrgy,sec_search,True
 CHRW,C.H. Robinson,1043277.0,"C. H. ROBINSON WORLDWIDE, INC.",4731.0,Other,wikipedia,True
 CHTR,Charter Communications,1091667.0,"CHARTER COMMUNICATIONS, INC. /MO/",4841.0,Telcm,wikipedia,True
 CI,Cigna,1739940.0,Cigna Group,6324.0,Money,wikipedia,True
@@ -140,7 +140,7 @@ CIEN,Ciena,936395.0,CIENA CORP,3661.0,BusEq,wikipedia,True
 CINF,Cincinnati Financial,20286.0,CINCINNATI FINANCIAL CORP,6331.0,Money,wikipedia,True
 CL,Colgate-Palmolive,21665.0,COLGATE PALMOLIVE CO,2844.0,Chems,wikipedia,True
 CLX,Clorox,21076.0,CLOROX CO /DE/,2842.0,Chems,wikipedia,True
-CMA,Comerica,28412.0,COMERICA INC,6021.0,Money,sec_name_search,True
+CMA,Comerica,28412.0,COMERICA INC,6021.0,Money,sec_search,True
 CMCSA,Comcast,1166691.0,COMCAST CORP,4841.0,Telcm,wikipedia,True
 CME,CME Group,1156375.0,CME GROUP INC.,6200.0,Money,wikipedia,True
 CMG,Chipotle Mexican Grill,1058090.0,CHIPOTLE MEXICAN GRILL INC,5812.0,Shops,wikipedia,True
@@ -148,21 +148,21 @@ CMI,Cummins,26172.0,CUMMINS INC,3510.0,Manuf,wikipedia,True
 CMS,CMS Energy,811156.0,CMS ENERGY CORP,4931.0,Utils,wikipedia,True
 CNC,Centene Corporation,1071739.0,CENTENE CORP,6324.0,Money,wikipedia,True
 CNP,CenterPoint Energy,1130310.0,CENTERPOINT ENERGY INC,4911.0,Utils,wikipedia,True
-CNX,Consol Energy,1256779.0,CONSOL ENERGY SALES CO,,Other,sec_name_search,True
+CNX,Consol Energy,1061985.0,CONSOLIDATED ENERGY INC,1220.0,Enrgy,sec_search,False
 COF,Capital One,927628.0,CAPITAL ONE FINANCIAL CORP,6021.0,Money,wikipedia,True
-COG,,,,,Other,sec_ticker_search,False
+COG,,,,,Enrgy,manual,False
 COHR,Coherent Corp.,820318.0,COHERENT CORP.,3827.0,BusEq,wikipedia,True
 COIN,Coinbase,1679788.0,"Coinbase Global, Inc.",6199.0,Money,wikipedia,True
-COL,Rockwell Collins,1137411.0,ROCKWELL COLLINS INC,3728.0,Manuf,sec_name_search,True
+COL,Rockwell Collins,1137411.0,ROCKWELL COLLINS INC,3728.0,Manuf,sec_search,True
 COO,Cooper Companies (The),711404.0,"COOPER COMPANIES, INC.",3851.0,Hlth,wikipedia,True
 COP,ConocoPhillips,1163165.0,CONOCOPHILLIPS,2911.0,Enrgy,wikipedia,True
 COR,Cencora,1140859.0,"Cencora, Inc.",5122.0,Shops,wikipedia,True
 COST,Costco,909832.0,COSTCO WHOLESALE CORP /NEW,5331.0,Shops,wikipedia,True
-COTY,Coty,1024305.0,COTY INC.,2844.0,Chems,sec_name_search,True
+COTY,Coty,1024305.0,COTY INC.,2844.0,Chems,sec_search,True
 CPAY,Corpay,1175454.0,"CORPAY, INC.",7389.0,Other,wikipedia,True
-CPB,Campbell's,,,,Other,sec_name_search,False
-CPGX,Columbia Pipeline Group,1629995.0,"Columbia Pipeline Group, Inc.",4922.0,Utils,sec_name_search,True
-CPRI,Capri Holdings,1530721.0,Capri Holdings Ltd,3100.0,NoDur,sec_name_search,True
+CPB,Campbell's,16732.0,CAMPBELL'S Co,2000.0,NoDur,sec_search,True
+CPGX,Columbia Pipeline Group,1629995.0,"Columbia Pipeline Group, Inc.",4922.0,Utils,sec_search,True
+CPRI,Capri Holdings,1530721.0,Capri Holdings Ltd,3100.0,NoDur,sec_search,True
 CPRT,Copart,900075.0,COPART INC,5500.0,Shops,wikipedia,True
 CPT,Camden Property Trust,906345.0,CAMDEN PROPERTY TRUST,6798.0,Money,wikipedia,True
 CRH,CRH plc,849395.0,CRH PUBLIC LTD CO,3241.0,Manuf,wikipedia,True
@@ -171,57 +171,57 @@ CRM,Salesforce,1108524.0,"Salesforce, Inc.",7372.0,BusEq,wikipedia,True
 CRWD,CrowdStrike,1535527.0,"CrowdStrike Holdings, Inc.",7372.0,BusEq,wikipedia,True
 CSCO,Cisco,858877.0,"CISCO SYSTEMS, INC.",3576.0,BusEq,wikipedia,True
 CSGP,CoStar Group,1057352.0,"COSTAR GROUP, INC.",7389.0,Other,wikipedia,True
-CSRA,CSRA,1646383.0,CSRA Inc.,7373.0,BusEq,sec_name_search,True
+CSRA,CSRA,1646383.0,CSRA Inc.,7373.0,BusEq,sec_search,True
 CSX,CSX Corporation,277948.0,CSX CORP,4011.0,Other,wikipedia,True
 CTAS,Cintas,723254.0,CINTAS CORP,2320.0,NoDur,wikipedia,True
-CTL,,18926.0,"Lumen Technologies, Inc.",4813.0,Telcm,sec_ticker_search,False
-CTLT,Catalent,1596783.0,"Catalent, Inc.",2834.0,Hlth,sec_name_search,True
-CTRA,Coterra Energy,858470.0,Coterra Energy Inc.,1311.0,Enrgy,sec_name_search,True
+CTL,,18926.0,"Lumen Technologies, Inc.",4813.0,Telcm,sec_search,False
+CTLT,Catalent,1596783.0,"Catalent, Inc.",2834.0,Hlth,sec_search,True
+CTRA,Coterra Energy,858470.0,Coterra Energy Inc.,1311.0,Enrgy,sec_search,True
 CTSH,Cognizant,1058290.0,COGNIZANT TECHNOLOGY SOLUTIONS CORP,7371.0,BusEq,wikipedia,True
 CTVA,Corteva,1755672.0,"Corteva, Inc.",100.0,NoDur,wikipedia,True
-CTXS,Citrix Systems,877890.0,CITRIX SYSTEMS INC,7372.0,BusEq,sec_name_search,True
-CVC,Cablevision Systems,1053112.0,CABLEVISION SYSTEMS CORP /NY,4841.0,Telcm,sec_name_search,True
+CTXS,Citrix Systems,877890.0,CITRIX SYSTEMS INC,7372.0,BusEq,sec_search,True
+CVC,Cablevision Systems,1053112.0,CABLEVISION SYSTEMS CORP /NY,4841.0,Telcm,sec_search,True
 CVNA,Carvana,1690820.0,CARVANA CO.,5500.0,Shops,wikipedia,True
 CVS,CVS Health,64803.0,CVS HEALTH Corp,5912.0,Shops,wikipedia,True
 CVX,Chevron Corporation,93410.0,CHEVRON CORP,2911.0,Enrgy,wikipedia,True
-CXO,Concho Resources,1358071.0,CONCHO RESOURCES INC,1311.0,Enrgy,sec_name_search,True
-CZR,Caesars Entertainment,1590895.0,"Caesars Entertainment, Inc.",7011.0,Other,sec_name_search,True
+CXO,Concho Resources,1358071.0,CONCHO RESOURCES INC,1311.0,Enrgy,sec_search,True
+CZR,Caesars Entertainment,1590895.0,"Caesars Entertainment, Inc.",7011.0,Other,sec_search,True
 D,Dominion Energy,715957.0,"DOMINION ENERGY, INC",4911.0,Utils,wikipedia,True
 DAL,Delta Air Lines,27904.0,"DELTA AIR LINES, INC.",4512.0,Other,wikipedia,True
 DASH,DoorDash,1792789.0,"DoorDash, Inc.",7389.0,Other,wikipedia,True
-DAY,Dayforce,1725057.0,"Dayforce, Inc.",7372.0,BusEq,sec_name_search,True
+DAY,Dayforce,1725057.0,"Dayforce, Inc.",7372.0,BusEq,sec_search,True
 DD,DuPont,1666700.0,"DuPont de Nemours, Inc.",2821.0,Chems,wikipedia,True
 DDOG,Datadog,1561550.0,"Datadog, Inc.",7372.0,BusEq,wikipedia,True
 DE,Deere & Company,315189.0,DEERE & CO,3523.0,Manuf,wikipedia,True
 DECK,Deckers Brands,910521.0,DECKERS OUTDOOR CORP,3021.0,Manuf,wikipedia,True
 DELL,Dell Technologies,1571996.0,Dell Technologies Inc.,3571.0,BusEq,wikipedia,True
-DFS,Discover Financial,1393612.0,Discover Financial Services,6141.0,Money,sec_name_search,True
+DFS,Discover Financial,1393612.0,Discover Financial Services,6141.0,Money,sec_search,True
 DG,Dollar General,29534.0,DOLLAR GENERAL CORP,5331.0,Shops,wikipedia,True
 DGX,Quest Diagnostics,1022079.0,QUEST DIAGNOSTICS INC,8071.0,Hlth,wikipedia,True
 DHI,D. R. Horton,882184.0,HORTON D R INC /DE/,1531.0,Other,wikipedia,False
 DHR,Danaher Corporation,313616.0,DANAHER CORP /DE/,3823.0,BusEq,wikipedia,True
 DIS,Walt Disney Company (The),1744489.0,Walt Disney Co,7990.0,Other,wikipedia,True
 DISCA,"Discovery, Inc.",1437107.0,"Warner Bros. Discovery, Inc.",4841.0,Telcm,wikipedia,False
-DISCK,"Discovery, Inc.",1437107.0,"Warner Bros. Discovery, Inc.",4841.0,Telcm,sec_name_search,False
-DISH,Dish Network,920436.0,DISH Network LLC,4841.0,Telcm,sec_name_search,True
+DISCK,"Discovery, Inc.",29071.0,DISCOVERY OIL LTD,1311.0,Enrgy,sec_search,True
+DISH,Dish Network,920436.0,DISH Network LLC,4841.0,Telcm,sec_search,True
 DLR,Digital Realty,1297996.0,"DIGITAL REALTY TRUST, INC.",6798.0,Money,wikipedia,True
 DLTR,Dollar Tree,935703.0,"DOLLAR TREE, INC.",5331.0,Shops,wikipedia,True
-DNB,Dun & Bradstreet,1115222.0,DUN & BRADSTREET CORP/NW,7320.0,Other,sec_name_search,True
-DO,Diamond Offshore Drilling,949039.0,"DIAMOND OFFSHORE DRILLING, INC.",1381.0,Enrgy,sec_name_search,True
+DNB,Dun & Bradstreet,,,,Other,manual,False
+DO,Diamond Offshore Drilling,949039.0,"DIAMOND OFFSHORE DRILLING, INC.",1381.0,Enrgy,sec_search,True
 DOC,Healthpeak Properties,765880.0,"HEALTHPEAK PROPERTIES, INC.",6798.0,Money,wikipedia,True
 DOV,Dover Corporation,29905.0,DOVER Corp,3530.0,Manuf,wikipedia,True
 DOW,Dow Inc.,1751788.0,DOW INC.,2821.0,Chems,wikipedia,True
-DPZ,Domino's,1286681.0,DOMINOS PIZZA INC,5140.0,Shops,wikipedia,False
-DRE,Duke Realty,1058838.0,DUKE REALTY LP/IN,,Other,sec_name_search,True
+DPZ,Domino's,1286681.0,DOMINOS PIZZA INC,5140.0,Shops,wikipedia,True
+DRE,Duke Realty,783280.0,DUKE REALTY CORP,6798.0,Money,sec_search,True
 DRI,Darden Restaurants,940944.0,DARDEN RESTAURANTS INC,5812.0,Shops,wikipedia,True
 DTE,DTE Energy,936340.0,DTE ENERGY CO,4911.0,Utils,wikipedia,True
 DUK,Duke Energy,1326160.0,Duke Energy CORP,4931.0,Utils,wikipedia,True
 DVA,DaVita,927066.0,DAVITA INC.,8090.0,Hlth,wikipedia,True
 DVN,Devon Energy,1090012.0,DEVON ENERGY CORP/DE,1311.0,Enrgy,wikipedia,True
 DWDP,DuPont,1666700.0,"DuPont de Nemours, Inc.",2821.0,Chems,wikipedia,True
-DXC,DXC Technology,1688568.0,DXC Technology Co,7374.0,BusEq,sec_name_search,True
+DXC,DXC Technology,1688568.0,DXC Technology Co,7374.0,BusEq,sec_search,True
 DXCM,Dexcom,1093557.0,DEXCOM INC,3841.0,Hlth,wikipedia,True
-EA,Electronic Arts,712515.0,ELECTRONIC ARTS INC.,7372.0,BusEq,sec_name_search,True
+EA,Electronic Arts,712515.0,ELECTRONIC ARTS INC.,7372.0,BusEq,sec_search,True
 EBAY,eBay Inc.,1065088.0,EBAY INC,7389.0,Other,wikipedia,True
 ECHO,EchoStar,1415404.0,EchoStar CORP,4899.0,Telcm,wikipedia,True
 ECL,Ecolab,31462.0,ECOLAB INC.,2840.0,Chems,wikipedia,True
@@ -231,26 +231,26 @@ EG,Everest Group,1095073.0,"EVEREST GROUP, LTD.",6331.0,Money,wikipedia,True
 EIX,Edison International,827052.0,EDISON INTERNATIONAL,4911.0,Utils,wikipedia,True
 EL,Estée Lauder Companies (The),1001250.0,ESTEE LAUDER COMPANIES INC,2844.0,Chems,wikipedia,False
 ELV,Elevance Health,1156039.0,"Elevance Health, Inc.",6324.0,Money,wikipedia,True
-EMC,EMC Corporation,,,,Other,sec_name_search,False
+EMC,EMC Corporation,105634.0,"EMCOR Group, Inc.",1731.0,BusEq,manual,False
 EME,Emcor,105634.0,"EMCOR Group, Inc.",1731.0,Other,wikipedia,True
-EMN,Eastman Chemical Co.,915389.0,EASTMAN CHEMICAL CO,2821.0,Chems,sec_name_search,True
+EMN,Eastman Chemical Co.,915389.0,EASTMAN CHEMICAL CO,2821.0,Chems,sec_search,True
 EMR,Emerson Electric,32604.0,EMERSON ELECTRIC CO,3600.0,Manuf,wikipedia,True
-ENDP,Endo International,1593034.0,Endo International plc,2834.0,Hlth,sec_name_search,True
-ENPH,Enphase Energy,1463101.0,"Enphase Energy, Inc.",3674.0,BusEq,sec_name_search,True
+ENDP,Endo International,1593034.0,Endo International plc,2834.0,Hlth,sec_search,True
+ENPH,Enphase Energy,1463101.0,"Enphase Energy, Inc.",3674.0,BusEq,sec_search,True
 EOG,EOG Resources,821189.0,EOG RESOURCES INC,1311.0,Enrgy,wikipedia,True
-EPAM,EPAM Systems,1352010.0,"EPAM Systems, Inc.",7371.0,BusEq,sec_name_search,True
+EPAM,EPAM Systems,1352010.0,"EPAM Systems, Inc.",7371.0,BusEq,sec_search,True
 EQIX,Equinix,1101239.0,EQUINIX INC,6798.0,Money,wikipedia,True
-EQR,,1843762.0,"EQRx, Inc.",2834.0,Hlth,sec_ticker_search,False
+EQR,,,,,Money,manual,False
 EQT,EQT Corporation,33213.0,EQT Corp,1311.0,Enrgy,wikipedia,True
 ERIE,Erie Indemnity,922621.0,ERIE INDEMNITY CO,6411.0,Money,wikipedia,True
 ES,Eversource Energy,72741.0,EVERSOURCE ENERGY,4911.0,Utils,wikipedia,True
-ESRX,Express Scripts,885721.0,EXPRESS SCRIPTS INC,5912.0,Shops,sec_name_search,True
+ESRX,Express Scripts,885721.0,EXPRESS SCRIPTS INC,5912.0,Shops,sec_search,True
 ESS,Essex Property Trust,920522.0,"ESSEX PROPERTY TRUST, INC.",6798.0,Money,wikipedia,True
-ETFC,E-Trade,1736680.0,"Trade 'Em, Inc.",,Other,sec_name_search,False
+ETFC,E-Trade,,E*TRADE CLEARING LLC,,Money,manual,True
 ETN,Eaton Corporation,1551182.0,Eaton Corp plc,3590.0,Manuf,wikipedia,True
 ETR,Entergy,65984.0,ENTERGY CORP /DE/,4911.0,Utils,wikipedia,True
-ETSY,Etsy,1370637.0,ETSY INC,7389.0,Other,sec_name_search,True
-EVHC,Envision Healthcare,1344154.0,Envision Healthcare Corp,8062.0,Hlth,sec_name_search,True
+ETSY,Etsy,1370637.0,ETSY INC,7389.0,Other,sec_search,True
+EVHC,Envision Healthcare,1344154.0,Envision Healthcare Corp,8062.0,Hlth,sec_search,True
 EVRG,Evergy,1711269.0,"Evergy, Inc.",4931.0,Utils,wikipedia,True
 EW,Edwards Lifesciences,1099800.0,Edwards Lifesciences Corp,3842.0,Hlth,wikipedia,True
 EXC,Exelon,1109357.0,EXELON CORP,4931.0,Utils,wikipedia,True
@@ -261,8 +261,8 @@ EXR,Extra Space Storage,1289490.0,Extra Space Storage Inc.,6798.0,Money,wikipedi
 F,Ford Motor Company,37996.0,FORD MOTOR CO,3711.0,Durbl,wikipedia,True
 FANG,Diamondback Energy,1539838.0,"Diamondback Energy, Inc.",1311.0,Enrgy,wikipedia,True
 FAST,Fastenal,815556.0,FASTENAL CO,5200.0,Shops,wikipedia,True
-FB,,1938534.0,FBS Global Ltd,1520.0,Other,sec_ticker_search,False
-FBHS,Fortune Brands Home & Security,,,,Other,sec_name_search,False
+FB,,,,,BusEq,manual,False
+FBHS,Fortune Brands Home & Security,1519751.0,"Fortune Brands Innovations, Inc.",2430.0,Other,sec_search,True
 FCX,Freeport-McMoRan,831259.0,FREEPORT-MCMORAN INC,1000.0,Other,wikipedia,True
 FDS,FactSet,1013237.0,FACTSET RESEARCH SYSTEMS INC,7370.0,BusEq,wikipedia,True
 FDX,FedEx,1048911.0,FEDEX CORP,4513.0,Other,wikipedia,True
@@ -276,71 +276,71 @@ FIS,Fidelity National Information Services,1136893.0,"Fidelity National Informat
 FISV,Fiserv,798354.0,FISERV INC,7389.0,Other,wikipedia,True
 FITB,Fifth Third Bancorp,35527.0,FIFTH THIRD BANCORP,6022.0,Money,wikipedia,True
 FIX,Comfort Systems USA,1035983.0,COMFORT SYSTEMS USA INC,1731.0,Other,wikipedia,True
-FL,Foot Locker,850209.0,"FOOT LOCKER, INC.",5661.0,Shops,sec_name_search,True
+FL,Foot Locker,850209.0,"FOOT LOCKER, INC.",5661.0,Shops,sec_search,True
 FLEX,Flex Ltd.,866374.0,FLEX LTD.,3672.0,BusEq,wikipedia,True
-FLIR,FLIR Systems,,,,Other,sec_name_search,False
-FLR,Fluor Corporation,,,,Other,sec_name_search,False
-FLS,Flowserve,30625.0,FLOWSERVE CORP,3561.0,Manuf,sec_name_search,True
+FLIR,FLIR Systems,,,,BusEq,manual,False
+FLR,Fluor Corporation,1124198.0,FLUOR CORP,1600.0,Other,sec_search,True
+FLS,Flowserve,30625.0,FLOWSERVE CORP,3561.0,Manuf,sec_search,True
 FLT,,1175454.0,"CORPAY, INC.",7389.0,Other,wikipedia,False
-FMC,FMC Corporation,,,,Other,sec_name_search,False
-FOSL,Fossil Group,883569.0,"Fossil Group, Inc.",3873.0,Manuf,sec_name_search,True
+FMC,FMC Corporation,37785.0,FMC CORP,2800.0,Chems,sec_search,True
+FOSL,Fossil Group,883569.0,"Fossil Group, Inc.",3873.0,Manuf,sec_search,True
 FOX,Fox Corporation (Class B),1754301.0,Fox Corp,4833.0,Telcm,wikipedia,True
 FOXA,Fox Corporation (Class A),1754301.0,Fox Corp,4833.0,Telcm,wikipedia,True
-FRC,First Republic Bank,1132979.0,FIRST REPUBLIC BANK,,Other,sec_name_search,True
+FRC,First Republic Bank,770975.0,FIRST REPUBLIC BANCORP INC,6036.0,Money,sec_search,True
 FRT,Federal Realty Investment Trust,34903.0,FEDERAL REALTY INVESTMENT TRUST,6798.0,Money,wikipedia,True
 FSLR,First Solar,1274494.0,"FIRST SOLAR, INC.",3674.0,BusEq,wikipedia,True
-FTI,TechnipFMC,1681459.0,TechnipFMC plc,3533.0,Manuf,sec_name_search,True
+FTI,TechnipFMC,1681459.0,TechnipFMC plc,3533.0,Manuf,sec_search,True
 FTNT,Fortinet,1262039.0,"Fortinet, Inc.",3577.0,BusEq,wikipedia,True
-FTR,Frontier Communications,20520.0,"Frontier Communications Parent, Inc.",4813.0,Telcm,sec_name_search,True
+FTR,Frontier Communications,20520.0,"Frontier Communications Parent, Inc.",4813.0,Telcm,sec_search,True
 FTV,Fortive,1659166.0,Fortive Corp,3823.0,BusEq,wikipedia,True
-GAS,AGL Resources,,,,Other,sec_name_search,False
+GAS,AGL Resources,,,,Utils,manual,False
 GD,General Dynamics,40533.0,GENERAL DYNAMICS CORP,3730.0,Manuf,wikipedia,True
 GDDY,GoDaddy,1609711.0,GoDaddy Inc.,7373.0,BusEq,wikipedia,True
 GE,GE Aerospace,40545.0,GENERAL ELECTRIC CO,3600.0,Manuf,wikipedia,False
 GEHC,GE HealthCare,1932393.0,GE HealthCare Technologies Inc.,3844.0,Hlth,wikipedia,True
 GEN,Gen Digital,849399.0,Gen Digital Inc.,7372.0,BusEq,wikipedia,True
 GEV,GE Vernova,1996810.0,GE Vernova Inc.,3600.0,Manuf,wikipedia,True
-GGP,GGP Inc.,895648.0,"GGP, Inc. (fka General Growth Properties Inc. & predecessor to General Growth Properties, Inc.)",6798.0,Money,sec_name_search,True
+GGP,GGP Inc.,895648.0,"GGP, Inc. (fka General Growth Properties Inc. & predecessor to General Growth Properties, Inc.)",6798.0,Money,sec_search,True
 GILD,Gilead Sciences,882095.0,"GILEAD SCIENCES, INC.",2836.0,Hlth,wikipedia,True
 GIS,General Mills,40704.0,GENERAL MILLS INC,2040.0,NoDur,wikipedia,True
 GL,Globe Life,320335.0,GLOBE LIFE INC.,6311.0,Money,wikipedia,True
 GLW,Corning Inc.,24741.0,CORNING INC /NY,3357.0,Manuf,wikipedia,True
 GM,General Motors,1467858.0,General Motors Co,3711.0,Durbl,wikipedia,True
-GMCR,Keurig Green Mountain,909954.0,"KEURIG GREEN MOUNTAIN, INC.",2090.0,NoDur,sec_name_search,True
-GME,GameStop,1326380.0,GameStop Corp.,5734.0,Shops,sec_name_search,True
+GMCR,Keurig Green Mountain,909954.0,"KEURIG GREEN MOUNTAIN, INC.",2090.0,NoDur,sec_search,True
+GME,GameStop,1326380.0,GameStop Corp.,5734.0,Shops,sec_search,True
 GNRC,Generac,1474735.0,GENERAC HOLDINGS INC.,3621.0,Manuf,wikipedia,True
 GOOG,Alphabet Inc. (Class C),1652044.0,Alphabet Inc.,7370.0,BusEq,wikipedia,True
 GOOGL,Alphabet Inc. (Class A),1652044.0,Alphabet Inc.,7370.0,BusEq,wikipedia,True
 GPC,Genuine Parts Company,40987.0,GENUINE PARTS CO,5013.0,Shops,wikipedia,True
 GPN,Global Payments,1123360.0,GLOBAL PAYMENTS INC,7389.0,Other,wikipedia,True
-GPS,Gap,39911.0,GAP INC,5651.0,Shops,sec_name_search,True
+GPS,Gap,39911.0,GAP INC,5651.0,Shops,sec_search,True
 GRMN,Garmin,1121788.0,GARMIN LTD,3812.0,BusEq,wikipedia,True
 GS,Goldman Sachs,886982.0,GOLDMAN SACHS GROUP INC,6211.0,Money,wikipedia,True
-GT,The Goodyear Tire & Rubber Company,,,,Other,sec_name_search,False
+GT,The Goodyear Tire & Rubber Company,42582.0,GOODYEAR TIRE & RUBBER CO /OH/,3011.0,Manuf,sec_search,True
 GWW,W. W. Grainger,277135.0,"W.W. GRAINGER, INC.",5000.0,Shops,wikipedia,True
 HAL,Halliburton,45012.0,HALLIBURTON CO,1389.0,Enrgy,wikipedia,True
-HAR,Harman International,1640446.0,"Harman Finance International, S.C.A.",,Other,sec_name_search,True
+HAR,Harman International,45623.0,HARMAN INTERNATIONAL INDUSTRIES INC/NY,3651.0,Durbl,sec_search,True
 HAS,Hasbro,46080.0,"HASBRO, INC.",3944.0,NoDur,wikipedia,True
 HBAN,Huntington Bancshares,49196.0,HUNTINGTON BANCSHARES INC /MD/,6021.0,Money,wikipedia,True
-HBI,Hanesbrands,1359841.0,Hanesbrands Inc.,5600.0,Shops,sec_name_search,True
+HBI,Hanesbrands,1359841.0,Hanesbrands Inc.,5600.0,Shops,sec_search,True
 HCA,HCA Healthcare,860730.0,"HCA Healthcare, Inc.",8062.0,Hlth,wikipedia,True
 HCP,,765880.0,"HEALTHPEAK PROPERTIES, INC.",6798.0,Money,wikipedia,False
 HD,Home Depot (The),354950.0,"HOME DEPOT, INC.",5211.0,Shops,wikipedia,True
-HES,Hess Corporation,,,,Other,sec_name_search,False
-HFC,HollyFrontier,48039.0,HollyFrontier Corp,2911.0,Enrgy,sec_name_search,True
+HES,Hess Corporation,1789832.0,Hess Midstream LP,1311.0,Enrgy,sec_search,True
+HFC,HollyFrontier,48039.0,HollyFrontier Corp,2911.0,Enrgy,sec_search,True
 HIG,Hartford (The),874766.0,"HARTFORD INSURANCE GROUP, INC.",6331.0,Money,wikipedia,True
 HII,Huntington Ingalls Industries,1501585.0,"HUNTINGTON INGALLS INDUSTRIES, INC.",3730.0,Manuf,wikipedia,True
 HLT,Hilton Worldwide,1585689.0,Hilton Worldwide Holdings Inc.,7011.0,Other,wikipedia,True
-HOG,Harley-Davidson,793952.0,"HARLEY-DAVIDSON, INC.",3751.0,Durbl,sec_name_search,True
-HOLX,Hologic,859737.0,HOLOGIC INC,3844.0,Hlth,sec_name_search,True
+HOG,Harley-Davidson,793952.0,"HARLEY-DAVIDSON, INC.",3751.0,Durbl,sec_search,True
+HOLX,Hologic,859737.0,HOLOGIC INC,3844.0,Hlth,sec_search,True
 HON,Honeywell Technologies,773840.0,HONEYWELL INTERNATIONAL INC,3724.0,Manuf,wikipedia,True
 HONA,Honeywell Aerospace,2089271.0,Honeywell Aerospace Inc.,3724.0,Manuf,wikipedia,True
 HOOD,Robinhood Markets,1783879.0,"Robinhood Markets, Inc.",6211.0,Money,wikipedia,True
-HOT,Starwood Hotels and Resorts,,,,Other,sec_name_search,False
-HP,Helmerich & Payne,46765.0,"Helmerich & Payne, Inc.",1381.0,Enrgy,sec_name_search,True
+HOT,Starwood Hotels and Resorts,48595.0,STARWOOD HOTELS & RESORTS,6798.0,Money,sec_search,True
+HP,Helmerich & Payne,46765.0,"Helmerich & Payne, Inc.",1381.0,Enrgy,sec_search,True
 HPE,Hewlett Packard Enterprise,1645590.0,Hewlett Packard Enterprise Co,3570.0,BusEq,wikipedia,True
 HPQ,HP Inc.,47217.0,HP INC,3570.0,BusEq,wikipedia,True
-HRB,H&R Block,12659.0,H&R BLOCK INC,7200.0,Shops,sec_name_search,True
+HRB,H&R Block,12659.0,H&R BLOCK INC,7200.0,Shops,sec_search,True
 HRL,Hormel Foods,48465.0,HORMEL FOODS CORP /DE/,2011.0,NoDur,wikipedia,True
 HRS,,202058.0,"L3HARRIS TECHNOLOGIES, INC. /DE/",3812.0,BusEq,wikipedia,False
 HSIC,Henry Schein,1000228.0,HENRY SCHEIN INC,5047.0,Shops,wikipedia,True
@@ -357,13 +357,13 @@ IEX,IDEX Corporation,832101.0,IDEX CORP /DE/,3561.0,Manuf,wikipedia,True
 IFF,International Flavors & Fragrances,51253.0,INTERNATIONAL FLAVORS & FRAGRANCES INC,2860.0,Chems,wikipedia,True
 ILMN,"Illumina, Inc.",1110803.0,"ILLUMINA, INC.",3826.0,BusEq,wikipedia,True
 INCY,Incyte,879169.0,INCYTE CORP,8731.0,Other,wikipedia,True
-INFO,IHS Markit,1598014.0,IHS Markit Ltd.,7370.0,BusEq,sec_name_search,True
+INFO,IHS Markit,1598014.0,IHS Markit Ltd.,7370.0,BusEq,sec_search,True
 INTC,Intel,50863.0,INTEL CORP,3674.0,BusEq,wikipedia,True
 INTU,Intuit,896878.0,INTUIT INC.,7372.0,BusEq,wikipedia,True
 INVH,Invitation Homes,1687229.0,Invitation Homes Inc.,6510.0,Money,wikipedia,True
 IP,International Paper,51434.0,INTERNATIONAL PAPER CO /NEW/,2621.0,Manuf,wikipedia,True
-IPG,Interpublic Group,51644.0,"INTERPUBLIC GROUP OF COMPANIES, INC.",7311.0,Other,sec_name_search,True
-IPGP,IPG Photonics,1111928.0,IPG PHOTONICS CORP,3674.0,BusEq,sec_name_search,True
+IPG,Interpublic Group,51644.0,"INTERPUBLIC GROUP OF COMPANIES, INC.",7311.0,Other,sec_search,True
+IPGP,IPG Photonics,1111928.0,IPG PHOTONICS CORP,3674.0,BusEq,sec_search,True
 IQV,IQVIA,1478242.0,IQVIA HOLDINGS INC.,8731.0,Other,wikipedia,True
 IR,Ingersoll Rand,1699150.0,Ingersoll Rand Inc.,3560.0,Manuf,wikipedia,True
 IRM,Iron Mountain,1020569.0,IRON MOUNTAIN INC,6798.0,Money,wikipedia,True
@@ -376,13 +376,13 @@ JBHT,J.B. Hunt,728535.0,HUNT J B TRANSPORT SERVICES INC,4213.0,Other,wikipedia,F
 JBL,Jabil,898293.0,JABIL INC,3672.0,BusEq,wikipedia,True
 JCI,Johnson Controls,833444.0,Johnson Controls International plc,3585.0,Manuf,wikipedia,True
 JEC,,52988.0,JACOBS SOLUTIONS INC.,1600.0,Other,wikipedia,False
-JEF,Jefferies Financial Group,96223.0,Jefferies Financial Group Inc.,6211.0,Money,sec_name_search,True
+JEF,Jefferies Financial Group,96223.0,Jefferies Financial Group Inc.,6211.0,Money,sec_search,True
 JKHY,Jack Henry & Associates,779152.0,JACK HENRY & ASSOCIATES INC,7373.0,BusEq,wikipedia,True
 JNJ,Johnson & Johnson,200406.0,JOHNSON & JOHNSON,2834.0,Hlth,wikipedia,True
-JNPR,Juniper Networks,1043604.0,JUNIPER NETWORKS INC,3576.0,BusEq,sec_name_search,True
+JNPR,Juniper Networks,1043604.0,JUNIPER NETWORKS INC,3576.0,BusEq,sec_search,True
 JPM,JPMorgan Chase,19617.0,JPMORGAN CHASE & CO,6021.0,Money,wikipedia,True
-JWN,Nordstrom,72333.0,NORDSTROM INC,5651.0,Shops,sec_name_search,True
-K,Kellanova,55067.0,KELLANOVA,2040.0,NoDur,sec_name_search,True
+JWN,Nordstrom,72333.0,NORDSTROM INC,5651.0,Shops,sec_search,True
+K,Kellanova,55067.0,KELLANOVA,2040.0,NoDur,sec_search,True
 KDP,Keurig Dr Pepper,1418135.0,Keurig Dr Pepper Inc.,2080.0,NoDur,wikipedia,True
 KEY,KeyCorp,91576.0,KEYCORP /NEW/,6021.0,Money,wikipedia,True
 KEYS,Keysight Technologies,1601046.0,"Keysight Technologies, Inc.",3823.0,BusEq,wikipedia,True
@@ -392,75 +392,75 @@ KKR,KKR & Co.,1404912.0,KKR & Co. Inc.,6282.0,Money,wikipedia,True
 KLAC,KLA Corporation,319201.0,KLA CORP,3827.0,BusEq,wikipedia,True
 KMB,Kimberly-Clark,55785.0,KIMBERLY CLARK CORP,2670.0,Manuf,wikipedia,True
 KMI,Kinder Morgan,1506307.0,"KINDER MORGAN, INC.",4922.0,Utils,wikipedia,True
-KMX,CarMax,1170010.0,CARMAX INC,5500.0,Shops,sec_name_search,True
+KMX,CarMax,1170010.0,CARMAX INC,5500.0,Shops,sec_search,True
 KO,Coca-Cola Company (The),21344.0,COCA COLA CO,2080.0,NoDur,wikipedia,True
-KORS,,1530721.0,Capri Holdings Ltd,3100.0,NoDur,sec_ticker_search,False
+KORS,,1530721.0,Capri Holdings Ltd,3100.0,NoDur,sec_search,False
 KR,Kroger,56873.0,KROGER CO,5411.0,Shops,wikipedia,True
-KSS,Kohl's,,,,Other,sec_name_search,False
-KSU,Kansas City Southern,54480.0,KANSAS CITY SOUTHERN,4011.0,Other,sec_name_search,True
+KSS,Kohl's,885639.0,KOHLS Corp,5311.0,Shops,sec_search,True
+KSU,Kansas City Southern,54480.0,KANSAS CITY SOUTHERN,4011.0,Other,sec_search,True
 KVUE,Kenvue,1944048.0,Kenvue Inc.,2844.0,Chems,wikipedia,True
 L,Loews Corporation,60086.0,LOEWS CORP,6331.0,Money,wikipedia,True
-LB,,1995807.0,LandBridge Co LLC,6792.0,Money,sec_ticker_search,False
+LB,,1995807.0,LandBridge Co LLC,6792.0,Shops,manual,False
 LDOS,Leidos,1336920.0,"Leidos Holdings, Inc.",7373.0,BusEq,wikipedia,True
-LEG,Leggett & Platt,58492.0,LEGGETT & PLATT INC,2510.0,Durbl,sec_name_search,True
+LEG,Leggett & Platt,1137212.0,LEGGETT R LYNN,6021.0,Money,sec_search,True
 LEN,Lennar,920760.0,LENNAR CORP /NEW/,1520.0,Other,wikipedia,True
 LH,Labcorp,920148.0,LABCORP HOLDINGS INC.,8071.0,Hlth,wikipedia,True
 LHX,L3Harris,202058.0,"L3HARRIS TECHNOLOGIES, INC. /DE/",3812.0,BusEq,wikipedia,True
 LII,Lennox International,1069202.0,LENNOX INTERNATIONAL INC,3585.0,Manuf,wikipedia,True
 LIN,Linde plc,1707925.0,LINDE PLC,2810.0,Chems,wikipedia,True
 LITE,Lumentum,1633978.0,Lumentum Holdings Inc.,3669.0,BusEq,wikipedia,True
-LKQ,LKQ Corporation,,,,Other,sec_name_search,False
-LLL,L3 Technologies,202058.0,"L3HARRIS TECHNOLOGIES, INC. /DE/",3812.0,BusEq,sec_name_search,False
-LLTC,Linear Technology,791907.0,LINEAR TECHNOLOGY CORP /CA/,3674.0,BusEq,sec_name_search,True
+LKQ,LKQ Corporation,1065696.0,LKQ CORP,5010.0,Shops,sec_search,True
+LLL,L3 Technologies,1039101.0,"L3 TECHNOLOGIES, INC.",3663.0,BusEq,sec_search,True
+LLTC,Linear Technology,791907.0,LINEAR TECHNOLOGY CORP /CA/,3674.0,BusEq,sec_search,True
 LLY,Lilly (Eli),59478.0,ELI LILLY & Co,2834.0,Hlth,wikipedia,False
-LM,Legg Mason,704051.0,"LEGG MASON, INC.",6282.0,Money,sec_name_search,True
+LM,Legg Mason,704051.0,"LEGG MASON, INC.",6282.0,Money,sec_search,True
 LMT,Lockheed Martin,936468.0,LOCKHEED MARTIN CORP,3760.0,Manuf,wikipedia,True
-LNC,Lincoln National Corporation,,,,Other,sec_name_search,False
+LNC,Lincoln National Corporation,59558.0,LINCOLN NATIONAL CORP,6311.0,Money,sec_search,True
 LNT,Alliant Energy,352541.0,ALLIANT ENERGY CORP,4931.0,Utils,wikipedia,True
-LOW,Lowe's,60667.0,LOWES COMPANIES INC,5211.0,Shops,wikipedia,False
+LOW,Lowe's,60667.0,LOWES COMPANIES INC,5211.0,Shops,wikipedia,True
 LRCX,Lam Research,707549.0,LAM RESEARCH CORP,3559.0,Manuf,wikipedia,True
 LULU,Lululemon Athletica,1397187.0,lululemon athletica inc.,2300.0,NoDur,wikipedia,True
-LUMN,Lumen Technologies,18926.0,"Lumen Technologies, Inc.",4813.0,Telcm,sec_name_search,True
+LUMN,Lumen Technologies,18926.0,"Lumen Technologies, Inc.",4813.0,Telcm,sec_search,True
 LUV,Southwest Airlines,92380.0,SOUTHWEST AIRLINES CO,4512.0,Other,wikipedia,True
-LVLT,Level 3 Communications,1324502.0,"Level 3 Communications, LLC",,Other,sec_name_search,True
+LVLT,Level 3 Communications,794323.0,"Level 3 Parent, LLC",4813.0,Telcm,sec_search,True
 LVS,Las Vegas Sands,1300514.0,LAS VEGAS SANDS CORP,7011.0,Other,wikipedia,True
-LW,Lamb Weston,,,,Other,sec_name_search,False
+LW,Lamb Weston,1679273.0,"Lamb Weston Holdings, Inc.",2030.0,NoDur,sec_search,True
 LYB,LyondellBasell,1489393.0,LyondellBasell Industries N.V.,2860.0,Chems,wikipedia,True
 LYV,Live Nation Entertainment,1335258.0,"Live Nation Entertainment, Inc.",7900.0,Other,wikipedia,True
-M,Macy's,,,,Other,sec_name_search,False
+M,Macy's,794367.0,"Macy's, Inc.",5311.0,Shops,sec_search,True
 MA,Mastercard,1141391.0,Mastercard Inc,7389.0,Other,wikipedia,True
 MAA,Mid-America Apartment Communities,912595.0,MID AMERICA APARTMENT COMMUNITIES INC.,6798.0,Money,wikipedia,True
-MAC,Macerich,912242.0,MACERICH CO,6798.0,Money,sec_name_search,True
+MAC,Macerich,912242.0,MACERICH CO,6798.0,Money,sec_search,True
 MAR,Marriott International,1048286.0,MARRIOTT INTERNATIONAL INC /MD/,7011.0,Other,wikipedia,True
 MAS,Masco,62996.0,MASCO CORP /DE/,3430.0,Manuf,wikipedia,True
-MAT,Mattel,63276.0,MATTEL INC /DE/,3942.0,NoDur,sec_name_search,True
-MCD,McDonald's,63908.0,MCDONALDS CORP,5812.0,Shops,wikipedia,False
+MAT,Mattel,63276.0,MATTEL INC /DE/,3942.0,NoDur,sec_search,True
+MCD,McDonald's,63908.0,MCDONALDS CORP,5812.0,Shops,wikipedia,True
 MCHP,Microchip Technology,827054.0,MICROCHIP TECHNOLOGY INC,3674.0,BusEq,wikipedia,True
 MCK,McKesson Corporation,927653.0,MCKESSON CORP,5122.0,Shops,wikipedia,True
-MCO,Moody's Corporation,1059556.0,MOODYS CORP /DE/,7320.0,Other,wikipedia,False
+MCO,Moody's Corporation,1059556.0,MOODYS CORP /DE/,7320.0,Other,wikipedia,True
 MDLZ,Mondelez International,1103982.0,"Mondelez International, Inc.",2000.0,NoDur,wikipedia,True
 MDT,Medtronic,1613103.0,Medtronic plc,3845.0,Hlth,wikipedia,True
 MET,MetLife,1099219.0,METLIFE INC,6311.0,Money,wikipedia,True
 META,Meta Platforms,1326801.0,"Meta Platforms, Inc.",7370.0,BusEq,wikipedia,True
 MGM,MGM Resorts,789570.0,MGM Resorts International,7011.0,Other,wikipedia,True
-MHK,Mohawk Industries,851968.0,MOHAWK INDUSTRIES INC,2273.0,NoDur,sec_name_search,True
-MJN,Mead Johnson,1444904.0,Mead Johnson Nutrition CO,2000.0,NoDur,sec_name_search,True
+MHK,Mohawk Industries,851968.0,MOHAWK INDUSTRIES INC,2273.0,NoDur,sec_search,True
+MJN,Mead Johnson,1444904.0,Mead Johnson Nutrition CO,2000.0,NoDur,sec_search,True
 MKC,McCormick & Company,63754.0,MCCORMICK & CO INC,2090.0,NoDur,wikipedia,True
-MKTX,MarketAxess,1278021.0,MARKETAXESS HOLDINGS INC,6211.0,Money,sec_name_search,True
+MKTX,MarketAxess,1278021.0,MARKETAXESS HOLDINGS INC,6211.0,Money,sec_search,True
 MLM,Martin Marietta Materials,916076.0,MARTIN MARIETTA MATERIALS INC,1400.0,Other,wikipedia,True
 MMC,,62709.0,"MARSH & MCLENNAN COMPANIES, INC.",6411.0,Money,wikipedia,False
 MMM,3M,66740.0,3M CO,3841.0,Hlth,wikipedia,True
-MNK,Mallinckrodt,1766927.0,Mallinckrodt Inc.,2834.0,Hlth,sec_name_search,True
+MNK,Mallinckrodt,1766927.0,Mallinckrodt Inc.,2834.0,Hlth,sec_search,True
 MNST,Monster Beverage,865752.0,Monster Beverage Corp,2086.0,NoDur,wikipedia,True
 MO,Altria,764180.0,"ALTRIA GROUP, INC.",2111.0,NoDur,wikipedia,True
-MOH,Molina Healthcare,1179929.0,"MOLINA HEALTHCARE, INC.",6324.0,Money,sec_name_search,True
-MON,Monsanto,1110783.0,MONSANTO CO /NEW/,2870.0,Chems,sec_name_search,True
+MOH,Molina Healthcare,1179929.0,"MOLINA HEALTHCARE, INC.",6324.0,Money,sec_search,True
+MON,Monsanto,1110783.0,MONSANTO CO /NEW/,2870.0,Chems,sec_search,True
 MOS,Mosaic Company (The),1285785.0,MOSAIC CO,2870.0,Chems,wikipedia,True
 MPC,Marathon Petroleum,1510295.0,Marathon Petroleum Corp,2911.0,Enrgy,wikipedia,True
 MPWR,Monolithic Power Systems,1280452.0,"MONOLITHIC POWER SYSTEMS, INC.",3674.0,BusEq,wikipedia,True
 MRK,Merck & Co.,310158.0,"Merck & Co., Inc.",2834.0,Hlth,wikipedia,True
 MRNA,Moderna,1682852.0,"Moderna, Inc.",2836.0,Hlth,wikipedia,True
-MRO,Marathon Oil,101778.0,MARATHON OIL CORP,1311.0,Enrgy,sec_name_search,True
+MRO,Marathon Oil,101778.0,MARATHON OIL CORP,1311.0,Enrgy,sec_search,True
 MRSH,Marsh McLennan,62709.0,"MARSH & MCLENNAN COMPANIES, INC.",6411.0,Money,wikipedia,True
 MRVL,Marvell Technology,1835632.0,"Marvell Technology, Inc.",3674.0,BusEq,wikipedia,True
 MS,Morgan Stanley,895421.0,MORGAN STANLEY,6211.0,Money,wikipedia,True
@@ -468,28 +468,28 @@ MSCI,MSCI,1408198.0,MSCI Inc.,7389.0,Other,wikipedia,True
 MSFT,Microsoft,789019.0,MICROSOFT CORP,7372.0,BusEq,wikipedia,True
 MSI,Motorola Solutions,68505.0,"Motorola Solutions, Inc.",3663.0,BusEq,wikipedia,True
 MTB,M&T Bank,36270.0,M&T BANK CORP,6022.0,Money,wikipedia,True
-MTCH,Match Group,891103.0,"Match Group, Inc.",7370.0,BusEq,sec_name_search,True
+MTCH,Match Group,891103.0,"Match Group, Inc.",7370.0,BusEq,sec_search,True
 MTD,Mettler Toledo,1037646.0,METTLER TOLEDO INTERNATIONAL INC/,3826.0,BusEq,wikipedia,True
 MU,Micron Technology,723125.0,MICRON TECHNOLOGY INC,3674.0,BusEq,wikipedia,True
-MUR,Murphy Oil,717423.0,MURPHY OIL CORP,1311.0,Enrgy,sec_name_search,True
-MXIM,Maxim Integrated,743316.0,MAXIM INTEGRATED PRODUCTS INC,3674.0,BusEq,sec_name_search,True
-MYL,,1762027.0,"Mylo, LLC",,Other,sec_ticker_search,False
-NAVI,Navient,1593538.0,NAVIENT CORP,6211.0,Money,sec_name_search,True
-NBL,Noble Energy,72207.0,NOBLE ENERGY INC,1311.0,Enrgy,sec_name_search,True
+MUR,Murphy Oil,717423.0,MURPHY OIL CORP,1311.0,Enrgy,sec_search,True
+MXIM,Maxim Integrated,743316.0,MAXIM INTEGRATED PRODUCTS INC,3674.0,BusEq,sec_search,True
+MYL,,,,,Hlth,manual,False
+NAVI,Navient,1593538.0,NAVIENT CORP,6211.0,Money,sec_search,True
+NBL,Noble Energy,72207.0,NOBLE ENERGY INC,1311.0,Enrgy,sec_search,True
 NCLH,Norwegian Cruise Line Holdings,1513761.0,Norwegian Cruise Line Holdings Ltd.,4400.0,Other,wikipedia,True
 NDAQ,"Nasdaq, Inc.",1120193.0,"NASDAQ, INC.",6200.0,Money,wikipedia,True
 NDSN,Nordson Corporation,72331.0,NORDSON CORP,3569.0,Manuf,wikipedia,True
 NEE,NextEra Energy,753308.0,NEXTERA ENERGY INC,4911.0,Utils,wikipedia,True
 NEM,Newmont,1164727.0,NEWMONT Corp /DE/,1040.0,Other,wikipedia,True
 NFLX,Netflix,1065280.0,NETFLIX INC,7841.0,Other,wikipedia,True
-NFX,Newfield Exploration,912750.0,NEWFIELD EXPLORATION CO /DE/,1311.0,Enrgy,sec_name_search,True
+NFX,Newfield Exploration,912750.0,NEWFIELD EXPLORATION CO /DE/,1311.0,Enrgy,sec_search,True
 NI,NiSource,1111711.0,NISOURCE INC.,4931.0,Utils,wikipedia,True
 NKE,"Nike, Inc.",320187.0,"NIKE, Inc.",3021.0,Manuf,wikipedia,True
-NKTR,Nektar Therapeutics,906709.0,NEKTAR THERAPEUTICS,2834.0,Hlth,sec_name_search,True
+NKTR,Nektar Therapeutics,906709.0,NEKTAR THERAPEUTICS,2834.0,Hlth,sec_search,True
 NLOK,,849399.0,Gen Digital Inc.,7372.0,BusEq,wikipedia,False
-NLSN,Nielsen Holdings,1397568.0,"Nielsen Holdings, L.L.C.",,Other,sec_name_search,True
+NLSN,Nielsen Holdings,864640.0,Nielsen CO,8880.0,Other,sec_search,True
 NOC,Northrop Grumman,1133421.0,NORTHROP GRUMMAN CORP /DE/,3812.0,BusEq,wikipedia,True
-NOV,Nov,1021860.0,NOV Inc.,3533.0,Manuf,sec_name_search,True
+NOV,Nov,1021860.0,NOV Inc.,3533.0,Manuf,sec_search,True
 NOW,ServiceNow,1373715.0,"ServiceNow, Inc.",7372.0,BusEq,wikipedia,True
 NRG,NRG Energy,1013871.0,"NRG ENERGY, INC.",4911.0,Utils,wikipedia,True
 NSC,Norfolk Southern,702165.0,NORFOLK SOUTHERN CORP,4011.0,Other,wikipedia,True
@@ -498,35 +498,35 @@ NTRS,Northern Trust,73124.0,NORTHERN TRUST CORP,6022.0,Money,wikipedia,True
 NUE,Nucor,73309.0,NUCOR CORP,3312.0,Manuf,wikipedia,True
 NVDA,Nvidia,1045810.0,NVIDIA CORP,3674.0,BusEq,wikipedia,True
 NVR,"NVR, Inc.",906163.0,NVR INC,1531.0,Other,wikipedia,True
-NWL,Newell Brands,814453.0,NEWELL BRANDS INC.,3089.0,Manuf,sec_name_search,True
+NWL,Newell Brands,814453.0,NEWELL BRANDS INC.,3089.0,Manuf,sec_search,True
 NWS,News Corp (Class B),1564708.0,NEWS CORP,2711.0,NoDur,wikipedia,True
 NWSA,News Corp (Class A),1564708.0,NEWS CORP,2711.0,NoDur,wikipedia,True
 NXPI,NXP Semiconductors,1413447.0,NXP Semiconductors N.V.,3674.0,BusEq,wikipedia,True
 O,Realty Income,726728.0,REALTY INCOME CORP,6798.0,Money,wikipedia,True
 ODFL,Old Dominion,878927.0,"OLD DOMINION FREIGHT LINE, INC.",4213.0,Other,wikipedia,True
-OGN,Organon & Co.,1821825.0,Organon & Co.,2834.0,Hlth,sec_name_search,True
-OI,Owens-Illinois,812233.0,OWENS-ILLINOIS GROUP INC,3221.0,Manuf,sec_name_search,True
+OGN,Organon & Co.,1821825.0,Organon & Co.,2834.0,Hlth,sec_search,True
+OI,Owens-Illinois,812233.0,OWENS-ILLINOIS GROUP INC,3221.0,Manuf,sec_search,True
 OKE,Oneok,1039684.0,ONEOK INC /NEW/,4923.0,Utils,wikipedia,True
 OMC,Omnicom Group,29989.0,OMNICOM GROUP INC.,7311.0,Other,wikipedia,True
 ON,ON Semiconductor,1097864.0,ON SEMICONDUCTOR CORP,3674.0,BusEq,wikipedia,True
 ORCL,Oracle Corporation,1341439.0,ORACLE CORP,7372.0,BusEq,wikipedia,True
-ORLY,O'Reilly Automotive,898173.0,O REILLY AUTOMOTIVE INC,5531.0,Shops,wikipedia,True
+ORLY,O'Reilly Automotive,898173.0,O REILLY AUTOMOTIVE INC,5531.0,Shops,wikipedia,False
 OTIS,Otis Worldwide,1781335.0,Otis Worldwide Corp,3600.0,Manuf,wikipedia,True
 OXY,Occidental Petroleum,797468.0,OCCIDENTAL PETROLEUM CORP /DE/,1311.0,Enrgy,wikipedia,True
 PANW,Palo Alto Networks,1327567.0,Palo Alto Networks Inc,3577.0,BusEq,wikipedia,True
-PARA,,1826011.0,"Banzai International, Inc.",7372.0,BusEq,sec_ticker_search,False
-PAYC,Paycom,1590955.0,"Paycom Software, Inc.",7372.0,BusEq,sec_name_search,True
+PARA,,1826011.0,"Banzai International, Inc.",7372.0,Telcm,manual,False
+PAYC,Paycom,1590955.0,"Paycom Software, Inc.",7372.0,BusEq,sec_search,True
 PAYX,Paychex,723531.0,PAYCHEX INC,8700.0,Other,wikipedia,True
-PBCT,People's United Financial,,,,Other,sec_name_search,False
-PBI,Pitney Bowes,78814.0,PITNEY BOWES INC /DE/,3579.0,BusEq,sec_name_search,True
+PBCT,People's United Financial,,,,Money,manual,False
+PBI,Pitney Bowes,78814.0,PITNEY BOWES INC /DE/,3579.0,BusEq,sec_search,True
 PCAR,Paccar,75362.0,PACCAR INC,3711.0,Durbl,wikipedia,True
 PCG,PG&E Corporation,1004980.0,PG&E Corp,4931.0,Utils,wikipedia,True
-PCL,Plum Creek Timber,849213.0,PLUM CREEK TIMBER CO INC,6798.0,Money,sec_name_search,True
-PCP,Precision Castparts Corporation,,,,Other,sec_name_search,False
-PDCO,Patterson Companies,891024.0,"PATTERSON COMPANIES, INC.",5047.0,Shops,sec_name_search,True
+PCL,Plum Creek Timber,849213.0,PLUM CREEK TIMBER CO INC,6798.0,Money,sec_search,True
+PCP,Precision Castparts Corporation,79958.0,PRECISION CASTPARTS CORP,3320.0,Manuf,sec_search,True
+PDCO,Patterson Companies,889900.0,PATTERSON UTI ENERGY INC,1381.0,Enrgy,sec_search,True
 PEAK,,765880.0,"HEALTHPEAK PROPERTIES, INC.",6798.0,Money,wikipedia,False
 PEG,Public Service Enterprise Group,788784.0,PUBLIC SERVICE ENTERPRISE GROUP INC,4931.0,Utils,wikipedia,True
-PENN,Penn Entertainment,921738.0,"PENN Entertainment, Inc.",7011.0,Other,sec_name_search,True
+PENN,Penn Entertainment,921738.0,"PENN Entertainment, Inc.",7011.0,Other,sec_search,True
 PEP,PepsiCo,77476.0,PEPSICO INC,2080.0,NoDur,wikipedia,True
 PFE,Pfizer,78003.0,PFIZER INC,2834.0,Hlth,wikipedia,True
 PFG,Principal Financial Group,1126328.0,PRINCIPAL FINANCIAL GROUP INC,6321.0,Money,wikipedia,True
@@ -543,35 +543,35 @@ PNC,PNC Financial Services,713676.0,"PNC FINANCIAL SERVICES GROUP, INC.",6021.0,
 PNR,Pentair,77360.0,PENTAIR plc,3550.0,Manuf,wikipedia,True
 PNW,Pinnacle West Capital,764622.0,PINNACLE WEST CAPITAL CORP,4911.0,Utils,wikipedia,True
 PODD,Insulet Corporation,1145197.0,INSULET CORP,3841.0,Hlth,wikipedia,True
-POM,Pepco Holdings,1135971.0,PEPCO HOLDINGS LLC,4931.0,Utils,sec_name_search,True
-POOL,Pool Corporation,,,,Other,sec_name_search,False
+POM,Pepco Holdings,1135971.0,PEPCO HOLDINGS LLC,4931.0,Utils,sec_search,True
+POOL,Pool Corporation,945841.0,POOL CORP,5090.0,Shops,sec_search,True
 PPG,PPG Industries,79879.0,PPG INDUSTRIES INC,2851.0,Chems,wikipedia,True
 PPL,PPL Corporation,922224.0,PPL Corp,4911.0,Utils,wikipedia,True
-PRGO,Perrigo,1585364.0,PERRIGO Co plc,2834.0,Hlth,sec_name_search,True
+PRGO,Perrigo,1585364.0,PERRIGO Co plc,2834.0,Hlth,sec_search,True
 PRU,Prudential Financial,1137774.0,PRUDENTIAL FINANCIAL INC,6311.0,Money,wikipedia,True
 PSA,Public Storage,1393311.0,Public Storage,6798.0,Money,wikipedia,True
 PSKY,Paramount Skydance Corporation,2041610.0,Paramount Skydance Corp,4833.0,Telcm,wikipedia,True
 PSX,Phillips 66,1534701.0,Phillips 66,2911.0,Enrgy,wikipedia,True
 PTC,PTC Inc.,857005.0,PTC INC.,7372.0,BusEq,wikipedia,True
-PVH,PVH,78239.0,PVH CORP. /DE/,2320.0,NoDur,sec_name_search,True
+PVH,PVH,78239.0,PVH CORP. /DE/,2320.0,NoDur,sec_search,True
 PWR,Quanta Services,1050915.0,"QUANTA SERVICES, INC.",1731.0,Other,wikipedia,True
-PX,,1004980.0,PG&E Corp,4931.0,Utils,sec_ticker_search,False
-PXD,Pioneer Natural Resources,1038357.0,PIONEER NATURAL RESOURCES CO,1311.0,Enrgy,sec_name_search,True
+PX,,,,,Chems,manual,False
+PXD,Pioneer Natural Resources,1038357.0,PIONEER NATURAL RESOURCES CO,1311.0,Enrgy,sec_search,True
 PYPL,PayPal,1633917.0,"PayPal Holdings, Inc.",7389.0,Other,wikipedia,True
 Q,Qnity Electronics,2058873.0,"Qnity Electronics, Inc.",3674.0,BusEq,wikipedia,True
 QCOM,Qualcomm,804328.0,QUALCOMM INC/DE,3663.0,BusEq,wikipedia,True
-QRVO,Qorvo,1604778.0,"Qorvo, Inc.",3674.0,BusEq,sec_name_search,True
-R,Ryder System,85961.0,RYDER SYSTEM INC,7510.0,Other,sec_name_search,True
-RAI,Reynolds American,1275283.0,REYNOLDS AMERICAN INC,2111.0,NoDur,sec_name_search,True
+QRVO,Qorvo,1604778.0,"Qorvo, Inc.",3674.0,BusEq,sec_search,True
+R,Ryder System,85961.0,RYDER SYSTEM INC,7510.0,Other,sec_search,True
+RAI,Reynolds American,1275283.0,REYNOLDS AMERICAN INC,2111.0,NoDur,sec_search,True
 RCL,Royal Caribbean Group,884887.0,ROYAL CARIBBEAN CRUISES LTD,4400.0,Other,wikipedia,True
 RDDT,Reddit,1713445.0,"Reddit, Inc.",7374.0,BusEq,wikipedia,True
 RE,,1095073.0,"EVEREST GROUP, LTD.",6331.0,Money,wikipedia,False
 REG,Regency Centers,910606.0,REGENCY CENTERS CORP,6798.0,Money,wikipedia,True
 REGN,Regeneron Pharmaceuticals,872589.0,"REGENERON PHARMACEUTICALS, INC.",2834.0,Hlth,wikipedia,True
 RF,Regions Financial Corporation,1281761.0,REGIONS FINANCIAL CORP,6021.0,Money,wikipedia,True
-RHI,Robert Half,315213.0,ROBERT HALF INC.,7363.0,Other,sec_name_search,True
-RHT,Red Hat,1087423.0,RED HAT INC,7370.0,BusEq,sec_name_search,True
-RIG,Transocean,1451505.0,Transocean Ltd.,1381.0,Enrgy,sec_name_search,True
+RHI,Robert Half,315213.0,ROBERT HALF INC.,7363.0,Other,sec_search,True
+RHT,Red Hat,1087423.0,RED HAT INC,7370.0,BusEq,sec_search,True
+RIG,Transocean,1451505.0,Transocean Ltd.,1381.0,Enrgy,sec_search,True
 RJF,Raymond James Financial,720005.0,RAYMOND JAMES FINANCIAL INC,6211.0,Money,wikipedia,True
 RL,Ralph Lauren Corporation,1037038.0,RALPH LAUREN CORP,2320.0,NoDur,wikipedia,True
 RMD,ResMed|,943819.0,RESMED INC,3841.0,Hlth,wikipedia,True
@@ -579,42 +579,42 @@ ROK,Rockwell Automation,1024478.0,"ROCKWELL AUTOMATION, INC",3829.0,BusEq,wikipe
 ROL,"Rollins, Inc.",84839.0,ROLLINS INC,7340.0,Other,wikipedia,True
 ROP,Roper Technologies,882835.0,ROPER TECHNOLOGIES INC,3823.0,BusEq,wikipedia,True
 ROST,Ross Stores,745732.0,"ROSS STORES, INC.",5651.0,Shops,wikipedia,True
-RRC,Range Resources,315852.0,RANGE RESOURCES CORP,1311.0,Enrgy,sec_name_search,True
+RRC,Range Resources,315852.0,RANGE RESOURCES CORP,1311.0,Enrgy,sec_search,True
 RSG,Republic Services,1060391.0,"REPUBLIC SERVICES, INC.",4953.0,Other,wikipedia,True
-RTN,Raytheon Company,,,,Other,sec_name_search,False
+RTN,Raytheon Company,1047122.0,RAYTHEON CO/,3812.0,BusEq,sec_search,True
 RTX,RTX Corporation,101829.0,RTX Corp,3724.0,Manuf,wikipedia,True
 RVTY,Revvity,31791.0,"REVVITY, INC.",3826.0,BusEq,wikipedia,True
 SATS,,1415404.0,EchoStar CORP,4899.0,Telcm,wikipedia,False
 SBAC,SBA Communications,1034054.0,SBA COMMUNICATIONS CORP,6798.0,Money,wikipedia,True
-SBNY,Signature Bank,1288784.0,Signature Bank Corp,6022.0,Money,sec_name_search,True
+SBNY,Signature Bank,1288784.0,Signature Bank Corp,6022.0,Money,sec_search,True
 SBUX,Starbucks,829224.0,STARBUCKS CORP,5810.0,Shops,wikipedia,True
-SCG,SCANA,1301439.0,SCANAPS,,Other,sec_name_search,False
+SCG,SCANA,754737.0,SCANA CORP,4931.0,Utils,sec_search,True
 SCHW,Charles Schwab Corporation,316709.0,SCHWAB CHARLES CORP,6211.0,Money,wikipedia,False
-SE,Spectra Energy,1373835.0,Spectra Energy Corp.,4923.0,Utils,sec_name_search,True
-SEDG,SolarEdge,1419612.0,"SOLAREDGE TECHNOLOGIES, INC.",3674.0,BusEq,sec_name_search,True
-SEE,Sealed Air,88204.0,SEALED AIR CORP US,3089.0,Manuf,sec_name_search,True
+SE,Spectra Energy,1373835.0,Spectra Energy Corp.,4923.0,Utils,sec_search,True
+SEDG,SolarEdge,1419612.0,"SOLAREDGE TECHNOLOGIES, INC.",3674.0,BusEq,sec_search,True
+SEE,Sealed Air,88204.0,SEALED AIR CORP US,3089.0,Manuf,sec_search,True
 SHW,Sherwin-Williams,89800.0,SHERWIN WILLIAMS CO,5200.0,Shops,wikipedia,True
-SIG,Signet Jewelers,832988.0,SIGNET JEWELERS LTD,5944.0,Shops,sec_name_search,True
-SIVB,SVB Financial Group,719739.0,SVB FINANCIAL GROUP,6022.0,Money,sec_name_search,True
+SIG,Signet Jewelers,832988.0,SIGNET JEWELERS LTD,5944.0,Shops,sec_search,True
+SIVB,SVB Financial Group,719739.0,SVB FINANCIAL GROUP,6022.0,Money,sec_search,True
 SJM,J.M. Smucker Company (The),91419.0,J M SMUCKER Co,2033.0,NoDur,wikipedia,True
 SLB,Schlumberger,87347.0,SLB LIMITED/NV,1389.0,Enrgy,wikipedia,False
-SLG,SL Green Realty,1040971.0,SL GREEN REALTY CORP,6798.0,Money,sec_name_search,True
+SLG,SL Green Realty,1040971.0,SL GREEN REALTY CORP,6798.0,Money,sec_search,True
 SMCI,Supermicro,1375365.0,"Super Micro Computer, Inc.",3571.0,BusEq,wikipedia,False
 SNA,Snap-on,91440.0,Snap-on Inc,3420.0,Manuf,wikipedia,True
 SNDK,Sandisk,2023554.0,Sandisk Corp,3572.0,BusEq,wikipedia,True
-SNI,Scripps Networks Interactive,1430602.0,"Scripps Networks Interactive, Inc.",4841.0,Telcm,sec_name_search,True
+SNI,Scripps Networks Interactive,1430602.0,"Scripps Networks Interactive, Inc.",4841.0,Telcm,sec_search,True
 SNPS,Synopsys,883241.0,SYNOPSYS INC,7372.0,BusEq,wikipedia,True
 SO,Southern Company,92122.0,SOUTHERN CO,4911.0,Utils,wikipedia,True
-SOLS,Solstice Advanced Materials,2064953.0,Solstice Advanced Materials Inc.,2800.0,Chems,sec_name_search,True
+SOLS,Solstice Advanced Materials,2064953.0,Solstice Advanced Materials Inc.,2800.0,Chems,sec_search,True
 SOLV,Solventum,1964738.0,Solventum Corp,3841.0,Hlth,wikipedia,True
 SPG,Simon Property Group,1063761.0,SIMON PROPERTY GROUP INC.,6798.0,Money,wikipedia,True
 SPGI,S&P Global,64040.0,S&P Global Inc.,7320.0,Other,wikipedia,True
-SPLS,Staples,791519.0,STAPLES INC,5940.0,Shops,sec_name_search,True
-SRCL,Stericycle,861878.0,STERICYCLE INC,4955.0,Other,sec_name_search,True
+SPLS,Staples,791519.0,STAPLES INC,5940.0,Shops,sec_search,True
+SRCL,Stericycle,861878.0,STERICYCLE INC,4955.0,Other,sec_search,True
 SRE,Sempra,1032208.0,SEMPRA,4932.0,Utils,wikipedia,True
 STE,Steris,1757898.0,STERIS plc,3842.0,Hlth,wikipedia,True
-STI,SunTrust Banks,750556.0,SUNTRUST BANKS INC,6021.0,Money,sec_name_search,True
-STJ,St Jude Medical,203077.0,"ST JUDE MEDICAL, LLC",3845.0,Hlth,sec_name_search,True
+STI,SunTrust Banks,750556.0,SUNTRUST BANKS INC,6021.0,Money,sec_search,True
+STJ,St Jude Medical,203077.0,"ST JUDE MEDICAL, LLC",3845.0,Hlth,sec_search,True
 STLD,Steel Dynamics,1022671.0,STEEL DYNAMICS INC,3312.0,Manuf,wikipedia,True
 STT,State Street Corporation,93751.0,STATE STREET CORP,6022.0,Money,wikipedia,True
 STX,Seagate Technology,1137789.0,Seagate Technology Holdings plc,3572.0,BusEq,wikipedia,True
@@ -622,26 +622,26 @@ STZ,Constellation Brands,16918.0,"CONSTELLATION BRANDS, INC.",2080.0,NoDur,wikip
 SW,Smurfit Westrock,2005951.0,Smurfit Westrock plc,2650.0,Manuf,wikipedia,True
 SWK,Stanley Black & Decker,93556.0,"STANLEY BLACK & DECKER, INC.",3420.0,Manuf,wikipedia,True
 SWKS,Skyworks Solutions,4127.0,"SKYWORKS SOLUTIONS, INC.",3674.0,BusEq,wikipedia,True
-SWN,Southwestern Energy,7332.0,SOUTHWESTERN ENERGY CO,1311.0,Enrgy,sec_name_search,True
+SWN,Southwestern Energy,7332.0,SOUTHWESTERN ENERGY CO,1311.0,Enrgy,sec_search,True
 SYF,Synchrony Financial,1601712.0,Synchrony Financial,6199.0,Money,wikipedia,True
 SYK,Stryker Corporation,310764.0,STRYKER CORP,3841.0,Hlth,wikipedia,True
 SYMC,,849399.0,Gen Digital Inc.,7372.0,BusEq,wikipedia,False
 SYY,Sysco,96021.0,SYSCO CORP,5140.0,Shops,wikipedia,True
 T,AT&T,732717.0,AT&T INC.,4813.0,Telcm,wikipedia,True
-TAP,Molson Coors,24545.0,MOLSON COORS BEVERAGE CO,2082.0,NoDur,sec_name_search,True
-TDC,Teradata,816761.0,TERADATA CORP /DE/,7372.0,BusEq,sec_name_search,True
+TAP,Molson Coors,24545.0,MOLSON COORS BEVERAGE CO,2082.0,NoDur,sec_search,True
+TDC,Teradata,816761.0,TERADATA CORP /DE/,7372.0,BusEq,sec_search,True
 TDG,TransDigm Group,1260221.0,TransDigm Group INC,3728.0,Manuf,wikipedia,True
 TDY,Teledyne Technologies,1094285.0,TELEDYNE TECHNOLOGIES INC,3812.0,BusEq,wikipedia,True
-TE,TECO Energy,350563.0,TECO ENERGY INC,4911.0,Utils,sec_name_search,True
+TE,TECO Energy,350563.0,TECO ENERGY INC,4911.0,Utils,sec_search,True
 TECH,Bio-Techne,842023.0,BIO-TECHNE Corp,2836.0,Hlth,wikipedia,True
 TEL,TE Connectivity,1385157.0,TE Connectivity plc,5065.0,Shops,wikipedia,True
 TER,Teradyne,97210.0,"TERADYNE, INC",3825.0,BusEq,wikipedia,True
 TFC,Truist Financial,92230.0,TRUIST FINANCIAL CORP,6021.0,Money,wikipedia,True
-TFX,Teleflex,96943.0,TELEFLEX INC,3841.0,Hlth,sec_name_search,True
-TGNA,Tegna,39899.0,TEGNA INC,4833.0,Telcm,sec_name_search,True
+TFX,Teleflex,96943.0,TELEFLEX INC,3841.0,Hlth,sec_search,True
+TGNA,Tegna,39899.0,TEGNA INC,4833.0,Telcm,sec_search,True
 TGT,Target Corporation,27419.0,TARGET CORP,5331.0,Shops,wikipedia,True
-THC,Tenet Healthcare,70318.0,TENET HEALTHCARE CORP,8062.0,Hlth,sec_name_search,True
-TIF,Tiffany & Co,98246.0,TIFFANY & CO,5944.0,Shops,sec_name_search,True
+THC,Tenet Healthcare,70318.0,TENET HEALTHCARE CORP,8062.0,Hlth,sec_search,True
+TIF,Tiffany & Co,98246.0,TIFFANY & CO,5944.0,Shops,sec_search,True
 TJX,TJX Companies,109198.0,TJX COMPANIES INC /DE/,5651.0,Shops,wikipedia,True
 TKO,TKO Group Holdings,1973266.0,"TKO Group Holdings, Inc.",7900.0,Other,wikipedia,True
 TMK,,320335.0,GLOBE LIFE INC.,6311.0,Money,wikipedia,False
@@ -650,51 +650,51 @@ TMUS,T-Mobile US,1283699.0,"T-Mobile US, Inc.",4812.0,Telcm,wikipedia,True
 TPL,Texas Pacific Land Corporation,1811074.0,Texas Pacific Land Corp,6792.0,Money,wikipedia,True
 TPR,"Tapestry, Inc.",1116132.0,"TAPESTRY, INC.",3100.0,NoDur,wikipedia,True
 TRGP,Targa Resources,1389170.0,Targa Resources Corp.,4922.0,Utils,wikipedia,True
-TRIP,TripAdvisor,1526520.0,"TripAdvisor, Inc.",7370.0,BusEq,sec_name_search,True
+TRIP,TripAdvisor,1526520.0,"TripAdvisor, Inc.",7370.0,BusEq,sec_search,True
 TRMB,Trimble Inc.,864749.0,TRIMBLE INC.,3829.0,BusEq,wikipedia,True
 TROW,T. Rowe Price,1113169.0,PRICE T ROWE GROUP INC,6282.0,Money,wikipedia,False
 TRV,Travelers Companies (The),86312.0,"TRAVELERS COMPANIES, INC.",6331.0,Money,wikipedia,True
 TSCO,Tractor Supply,916365.0,TRACTOR SUPPLY CO /DE/,5200.0,Shops,wikipedia,True
 TSLA,"Tesla, Inc.",1318605.0,"Tesla, Inc.",3711.0,Durbl,wikipedia,True
 TSN,Tyson Foods,100493.0,"TYSON FOODS, INC.",2015.0,NoDur,wikipedia,True
-TSS,TSYS,,,,Other,sec_name_search,False
+TSS,TSYS,,,,BusEq,manual,False
 TT,Trane Technologies,1466258.0,Trane Technologies plc,3822.0,BusEq,wikipedia,True
-TTD,The Trade Desk,,,,Other,sec_name_search,False
+TTD,The Trade Desk,1671933.0,"Trade Desk, Inc.",7370.0,BusEq,sec_search,True
 TTWO,Take-Two Interactive,946581.0,TAKE TWO INTERACTIVE SOFTWARE INC,7372.0,BusEq,wikipedia,True
-TWC,Time Warner Cable,1450621.0,TIME WARNER CABLE LLC,,Other,sec_name_search,True
-TWTR,Twitter,1418091.0,"TWITTER, INC.",7370.0,BusEq,sec_name_search,True
-TWX,Time Warner,1450621.0,TIME WARNER CABLE LLC,,Other,sec_name_search,True
+TWC,Time Warner Cable,1064637.0,TIME WARNER TELECOM LLC,4813.0,Telcm,sec_search,True
+TWTR,Twitter,1418091.0,"TWITTER, INC.",7370.0,BusEq,sec_search,True
+TWX,Time Warner,1064637.0,TIME WARNER TELECOM LLC,4813.0,Telcm,sec_search,True
 TXN,Texas Instruments,97476.0,TEXAS INSTRUMENTS INC,3674.0,BusEq,wikipedia,True
 TXT,Textron,217346.0,TEXTRON INC,3720.0,Manuf,wikipedia,True
 TYL,Tyler Technologies,860731.0,TYLER TECHNOLOGIES INC,7372.0,BusEq,wikipedia,True
-UA,Under Armour (Class C),,,,Other,sec_name_search,False
-UAA,Under Armour (Class A),,,,Other,sec_name_search,False
+UA,Under Armour (Class C),1336917.0,"Under Armour, Inc.",2300.0,NoDur,sec_search,True
+UAA,Under Armour (Class A),1336917.0,"Under Armour, Inc.",2300.0,NoDur,sec_search,True
 UAL,United Airlines Holdings,100517.0,"United Airlines Holdings, Inc.",4512.0,Other,wikipedia,True
 UBER,Uber,1543151.0,"Uber Technologies, Inc",7389.0,Other,wikipedia,True
 UDR,"UDR, Inc.",74208.0,"UDR, Inc.",6798.0,Money,wikipedia,True
 UHS,Universal Health Services,352915.0,UNIVERSAL HEALTH SERVICES INC,8062.0,Hlth,wikipedia,True
 ULTA,Ulta Beauty,1403568.0,"Ulta Beauty, Inc.",5990.0,Shops,wikipedia,True
 UNH,UnitedHealth Group,731766.0,UNITEDHEALTH GROUP INC,6324.0,Money,wikipedia,True
-UNM,Unum,5513.0,Unum Group,6321.0,Money,sec_name_search,True
+UNM,Unum,5513.0,Unum Group,6321.0,Money,sec_search,True
 UNP,Union Pacific Corporation,100885.0,UNION PACIFIC CORP,4011.0,Other,wikipedia,True
 UPS,United Parcel Service,1090727.0,UNITED PARCEL SERVICE INC,4210.0,Other,wikipedia,True
-URBN,Urban Outfitters,912615.0,URBAN OUTFITTERS INC,5651.0,Shops,sec_name_search,True
+URBN,Urban Outfitters,912615.0,URBAN OUTFITTERS INC,5651.0,Shops,sec_search,True
 URI,United Rentals,1067701.0,"UNITED RENTALS, INC.",7359.0,Other,wikipedia,True
 USB,U.S. Bancorp,36104.0,US BANCORP \DE\,6021.0,Money,wikipedia,False
 UTX,,101829.0,RTX Corp,3724.0,Manuf,wikipedia,False
 V,Visa Inc.,1403161.0,VISA INC.,7389.0,Other,wikipedia,True
-VAR,Varian Medical Systems,203527.0,VARIAN MEDICAL SYSTEMS INC,3845.0,Hlth,sec_name_search,True
+VAR,Varian Medical Systems,203527.0,VARIAN MEDICAL SYSTEMS INC,3845.0,Hlth,sec_search,True
 VEEV,Veeva Systems,1393052.0,VEEVA SYSTEMS INC,7372.0,BusEq,wikipedia,True
-VFC,VF Corporation,,,,Other,sec_name_search,False
-VIAB,Viacom,1339947.0,Viacom Inc.,4841.0,Telcm,sec_name_search,True
+VFC,VF Corporation,103379.0,V F CORP,2320.0,NoDur,sec_search,False
+VIAB,Viacom,1339947.0,Viacom Inc.,4841.0,Telcm,sec_search,True
 VIAC,,2041610.0,Paramount Skydance Corp,4833.0,Telcm,wikipedia,False
 VICI,Vici Properties,1705696.0,VICI PROPERTIES INC.,6798.0,Money,wikipedia,True
 VLO,Valero Energy,1035002.0,VALERO ENERGY CORP/TX,2911.0,Enrgy,wikipedia,True
 VLTO,Veralto,1967680.0,Veralto Corp,3825.0,BusEq,wikipedia,True
 VMC,Vulcan Materials Company,1396009.0,Vulcan Materials CO,1400.0,Other,wikipedia,True
 VMRK,Vivmark Residential,906107.0,VIVMARK RESIDENTIAL,6798.0,Money,wikipedia,True
-VNO,Vornado Realty Trust,899689.0,VORNADO REALTY TRUST,6798.0,Money,sec_name_search,True
-VNT,Vontier,1786842.0,Vontier Corp,3824.0,BusEq,sec_name_search,True
+VNO,Vornado Realty Trust,1040765.0,VORNADO REALTY LP,6798.0,Money,sec_search,True
+VNT,Vontier,1786842.0,Vontier Corp,3824.0,BusEq,sec_search,True
 VRSK,Verisk Analytics,1442145.0,"Verisk Analytics, Inc.",7374.0,BusEq,wikipedia,True
 VRSN,Verisign,1014473.0,VERISIGN INC/CA,7371.0,BusEq,wikipedia,True
 VRT,Vertiv,1674101.0,Vertiv Holdings Co,3679.0,BusEq,wikipedia,True
@@ -705,40 +705,40 @@ VTRS,Viatris,1792044.0,Viatris Inc,2834.0,Hlth,wikipedia,True
 VZ,Verizon,732712.0,VERIZON COMMUNICATIONS INC,4813.0,Telcm,wikipedia,True
 WAB,Wabtec,943452.0,WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP,3743.0,Manuf,wikipedia,False
 WAT,Waters Corporation,1000697.0,WATERS CORP /DE/,3826.0,BusEq,wikipedia,True
-WBA,Walgreens Boots Alliance,1618921.0,"Walgreens Boots Alliance, Inc.",5912.0,Shops,sec_name_search,True
+WBA,Walgreens Boots Alliance,1618921.0,"Walgreens Boots Alliance, Inc.",5912.0,Shops,sec_search,True
 WBD,Warner Bros. Discovery,1437107.0,"Warner Bros. Discovery, Inc.",4841.0,Telcm,wikipedia,True
-WCG,WellCare,1804830.0,"WellCare, Inc.",,Other,sec_name_search,True
+WCG,WellCare,1279363.0,"WELLCARE HEALTH PLANS, INC.",6324.0,Money,sec_search,True
 WDAY,"Workday, Inc.",1327811.0,"Workday, Inc.",7374.0,BusEq,wikipedia,True
 WDC,Western Digital,106040.0,WESTERN DIGITAL CORP,3572.0,BusEq,wikipedia,True
 WEC,WEC Energy Group,783325.0,"WEC ENERGY GROUP, INC.",4931.0,Utils,wikipedia,True
 WELL,Welltower,766704.0,WELLTOWER INC.,6798.0,Money,wikipedia,True
 WFC,Wells Fargo,72971.0,WELLS FARGO & COMPANY/MN,6021.0,Money,wikipedia,True
-WFM,Whole Foods Market,865436.0,WHOLE FOODS MARKET INC,5411.0,Shops,sec_name_search,True
-WHR,Whirlpool Corporation,,,,Other,sec_name_search,False
+WFM,Whole Foods Market,865436.0,WHOLE FOODS MARKET INC,5411.0,Shops,sec_search,True
+WHR,Whirlpool Corporation,106640.0,WHIRLPOOL CORP /DE/,3630.0,Durbl,sec_search,True
 WLTW,Willis Towers Watson,1140536.0,WILLIS TOWERS WATSON PLC,6411.0,Money,wikipedia,True
 WM,Waste Management,823768.0,WASTE MANAGEMENT INC,4953.0,Other,wikipedia,True
 WMB,Williams Companies,107263.0,"WILLIAMS COMPANIES, INC.",4922.0,Utils,wikipedia,True
 WMT,Walmart,104169.0,Walmart Inc.,5331.0,Shops,wikipedia,True
 WRB,W. R. Berkley Corporation,11544.0,BERKLEY W R CORP,6331.0,Money,wikipedia,False
-WRK,,1636023.0,WRKCo Inc.,2650.0,Manuf,sec_ticker_search,False
+WRK,,,,,Manuf,manual,False
 WSM,"Williams-Sonoma, Inc.",719955.0,WILLIAMS SONOMA INC,5700.0,Shops,wikipedia,True
 WST,West Pharmaceutical Services,105770.0,WEST PHARMACEUTICAL SERVICES INC,3841.0,Hlth,wikipedia,True
 WTW,Willis Towers Watson,1140536.0,WILLIS TOWERS WATSON PLC,6411.0,Money,wikipedia,True
-WU,Western Union,1365135.0,Western Union CO,7389.0,Other,sec_name_search,True
+WU,Western Union,1365135.0,Western Union CO,7389.0,Other,sec_search,True
 WY,Weyerhaeuser,106535.0,WEYERHAEUSER CO,6798.0,Money,wikipedia,True
-WYND,,1361658.0,Travel & Leisure Co.,7011.0,Other,sec_ticker_search,False
+WYND,,1361658.0,Travel & Leisure Co.,7011.0,Other,sec_search,False
 WYNN,Wynn Resorts,1174922.0,WYNN RESORTS LTD,7011.0,Other,wikipedia,True
-XEC,Cimarex Energy,1168054.0,CIMAREX ENERGY CO,1311.0,Enrgy,sec_name_search,True
+XEC,Cimarex Energy,1168054.0,CIMAREX ENERGY CO,1311.0,Enrgy,sec_search,True
 XEL,Xcel Energy,72903.0,XCEL ENERGY INC,4931.0,Utils,wikipedia,True
-XL,XL Group,813298.0,"DESTINATION XL GROUP, INC.",5651.0,Shops,sec_name_search,False
-XLNX,Xilinx,743988.0,XILINX INC,3674.0,BusEq,sec_name_search,True
+XL,XL Group,1523700.0,XLIT Ltd.,6331.0,Money,sec_search,False
+XLNX,Xilinx,743988.0,XILINX INC,3674.0,BusEq,sec_search,True
 XOM,ExxonMobil,2115436.0,ExxonMobil Holdings Corp,2911.0,Enrgy,wikipedia,True
-XRAY,Dentsply Sirona,818479.0,DENTSPLY SIRONA Inc.,3843.0,Hlth,sec_name_search,True
-XRX,Xerox,1770450.0,Xerox Holdings Corp,3577.0,BusEq,sec_name_search,True
+XRAY,Dentsply Sirona,818479.0,DENTSPLY SIRONA Inc.,3843.0,Hlth,sec_search,True
+XRX,Xerox,1770450.0,Xerox Holdings Corp,3577.0,BusEq,sec_search,True
 XYL,Xylem Inc.,1524472.0,Xylem Inc.,3561.0,Manuf,wikipedia,True
 XYZ,"Block, Inc.",1512673.0,"Block, Inc.",7372.0,BusEq,wikipedia,True
 YUM,Yum! Brands,1041061.0,YUM BRANDS INC,5812.0,Shops,wikipedia,True
 ZBH,Zimmer Biomet,1136869.0,"ZIMMER BIOMET HOLDINGS, INC.",3842.0,Hlth,wikipedia,True
 ZBRA,Zebra Technologies,877212.0,ZEBRA TECHNOLOGIES CORP,3560.0,Manuf,wikipedia,True
-ZION,Zions Bancorporation,1642140.0,Zions Bancorporation,,Other,sec_name_search,True
+ZION,Zions Bancorporation,109380.0,"ZIONS BANCORPORATION, NATIONAL ASSOCIATION /UT/",6021.0,Money,sec_search,True
 ZTS,Zoetis,1555280.0,Zoetis Inc.,2834.0,Hlth,wikipedia,True
