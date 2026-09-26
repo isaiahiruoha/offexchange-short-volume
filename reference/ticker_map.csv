@@ -1,0 +1,42 @@
+sp500_ticker,price_ticker,source,relation,note
+ABC,COR,yfinance,rename,AmerisourceBergen to Cencora
+ADS,BFH,yfinance,rename,Alliance Data to Bread Financial
+ANTM,ELV,yfinance,rename,Anthem to Elevance
+BHGE,BKR,yfinance,rename,Baker Hughes GE to Baker Hughes
+BK,BNY,yfinance,rename,BNY Mellon ticker change
+BLL,BALL,yfinance,rename,Ball Corp
+CBS,PSKY,yfinance,rename,CBS to ViacomCBS to Paramount to Paramount Skydance
+VIAC,PSKY,yfinance,rename,ViacomCBS to Paramount Skydance
+CDAY,DAY,tiingo,rename_then_delisted,Ceridian to Dayforce; Tiingo ends 2026-02-03
+COG,CTRA,tiingo,rename_then_delisted,Cabot Oil & Gas to Coterra; Tiingo ends 2026-05-06
+CTL,LUMN,yfinance,rename,CenturyLink to Lumen
+DWDP,DD,yfinance,rename,DowDuPont to DuPont; corporate-action chain needs return checks
+FBHS,FBIN,yfinance,rename,Fortune Brands
+FI,FISV,yfinance,rename,Fiserv ticker change back
+FLT,CPAY,yfinance,rename,FleetCor to Corpay
+GPS,GAP,yfinance,rename,Gap Inc
+HFC,DINO,yfinance,rename,HollyFrontier to HF Sinclair
+HRS,LHX,yfinance,rename,Harris to L3Harris
+JEC,J,yfinance,rename,Jacobs
+KORS,CPRI,yfinance,rename,Michael Kors to Capri
+NLOK,GEN,yfinance,rename,NortonLifeLock to Gen Digital
+SYMC,GEN,yfinance,rename,Symantec to Gen Digital
+PKI,RVTY,yfinance,rename,PerkinElmer to Revvity
+RE,EG,yfinance,rename,Everest Re to Everest Group
+TMK,GL,yfinance,rename,Torchmark to Globe Life
+UTX,RTX,yfinance,rename,United Technologies to RTX
+WLTW,WTW,yfinance,rename,Willis Towers Watson
+WYND,TNL,yfinance,rename,Wyndham Destinations to Travel + Leisure
+ARNC,HWM,yfinance,rename,Arconic to Howmet; spin-off adjustments need checks
+DISCA,WBD,yfinance,rename,Discovery to Warner Bros Discovery
+HCP,DOC,yfinance,rename,HCP to Healthpeak
+PEAK,DOC,yfinance,rename,Healthpeak ticker change
+MMC,MRSH,yfinance,rename,Marsh McLennan ticker change
+SATS,ECHO,tiingo,rename,EchoStar ticker change
+EQR,EQR,tiingo,rename,Equity Residential now Vivmark Residential; Tiingo API serves it under EQR
+SIVB,SIVBQ,tiingo,bankrupt_otc,SVB Financial; history continues under OTC ticker
+FRC,FRCB,tiingo,bankrupt_otc,First Republic; history continues under OTC ticker
+ENDP,ENDPQ,tiingo,bankrupt_otc,Endo; Tiingo ends 2024-05-01
+MNK,MNKKQ,tiingo,bankrupt_otc,Mallinckrodt; Tiingo ends 2022-07-18
+CCE,,none,unrecoverable,Coca-Cola Enterprises merged into CCEP (different entity); CCE now a recycled ticker
+ESV,,none,unrecoverable,Ensco; VAL pre-2017 is Valspar (recycled ticker)

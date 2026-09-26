@@ -65,8 +65,33 @@ The missing names are mostly acquisition targets and failures (SIVB, FRC).
 These are the stocks where short-selling informativeness should matter most.
 Dropping them biases the test.
 
-A second risk is ticker reuse: some of the 109 "recovered" names may be a different company that later took the same symbol.
-This has to be checked with company names or start dates, not just ticker strings.
+### Recovering the missing 133 (Tiingo free tier + rename map)
+
+The 133 split into three groups:
+
+| Group | Count | Resolution |
+|---|---|---|
+| Truly delisted, still under the old ticker in Tiingo | 92 | Tiingo `supported_tickers.csv` spans the full S&P window |
+| Renamed, history lives under the new ticker | ~34 | `reference/ticker_map.csv`, fetched from yfinance or Tiingo |
+| Bankrupt, history continues under an OTC ticker | 4 | SIVB to SIVBQ, FRC to FRCB, ENDP to ENDPQ, MNK to MNKKQ (Tiingo) |
+| Unrecoverable | 2 | CCE (merged into a different entity, CCEP), ESV (VAL before 2017 is Valspar, a recycled ticker) |
+
+So about 131 of 133 are recoverable, and the survivorship gap drops from about 18% of names to 2 names.
+
+Renames were verified in both sources: for example BK to BNY, ANTM to ELV and UTX to RTX all return full 2016-2026 history under the new ticker.
+Tiingo's supported-ticker list only lists current symbols, so it needs the same rename map.
+
+Tiingo's free tier caps at 500 unique symbols a month, so the build is a hybrid: yfinance for the roughly 612 names it covers, and Tiingo for the rest.
+Returns on overlapping names should be compared across the two sources to check that their adjustments agree.
+
+### Ticker reuse and entity chains
+
+Tickers get reused across companies.
+Examples found: `CCE` is now Carnegie Clean Energy, `VAL` before 2017 is Valspar, and `DOC` and `PARA` each have several spells in Tiingo.
+Some yfinance series also stitch corporate-action chains into one history (DD across DowDuPont, HWM across Arconic).
+Returns around mergers and spin-offs in these names need a sanity check for jumps.
+
+FINRA files are keyed on the point-in-time ticker (for example, FB before 2022 and META after), so the same map is needed to join short volume to prices.
 
 ### Point-in-time membership
 
