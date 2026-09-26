@@ -1,0 +1,32 @@
+[project]
+name = "shortvol"
+version = "0.1.0"
+description = "FINRA Reg SHO daily short volume as a next-day cross-sectional equity signal"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "pandas",
+    "pyarrow",
+    "requests",
+    "yfinance",
+    "pandas_market_calendars",
+    "scipy",
+    "statsmodels",
+    "matplotlib",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff", "jupyter"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
