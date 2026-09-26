@@ -103,3 +103,12 @@ def ic_by_group(df: pd.DataFrame, signal: str, target: str, group: str) -> pd.Da
         if ic.count() > 20:
             rows[name] = summarize_ic(ic)
     return pd.DataFrame(rows).T
+
+
+def terciles(df: pd.DataFrame, col: str, labels: list[str]) -> pd.Series:
+    """Split stocks into terciles of `col` each day; days with too few values get NaN."""
+    def cut(x):
+        if x.count() < MIN_STOCKS:
+            return pd.Series(np.nan, index=x.index)
+        return pd.qcut(x.rank(method="first"), 3, labels=labels).astype(object)
+    return df.groupby("date")[col].transform(cut)
