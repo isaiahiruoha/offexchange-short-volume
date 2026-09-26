@@ -28,3 +28,17 @@ def test_finra_symbol_uses_slash_for_class_shares():
 
     assert finra_symbol("BRK.B") == "BRK/B"
     assert finra_symbol("AAPL") == "AAPL"
+
+
+def test_flag_runs_drops_only_consecutive_failing_quarters():
+    from shortvol.panel import flag_runs
+
+    agree = pd.DataFrame(
+        {
+            "ticker": ["A"] * 5 + ["B"] * 3,
+            "quarter": [1, 2, 3, 4, 5, 1, 2, 3],
+            "days": [60] * 8,
+            "corr": [0.9, 0.2, 0.3, 0.9, 0.1, 0.9, 0.4, 0.9],
+        }
+    )
+    assert flag_runs(agree).tolist() == [False, True, True, False, False, False, False, False]

@@ -42,3 +42,5 @@ CCE,,none,unrecoverable,Coca-Cola Enterprises merged into CCEP (different entity
 ESV,,none,unrecoverable,Ensco; VAL pre-2017 is Valspar (recycled ticker)
 FB,META,yfinance,rename,Facebook to Meta; yfinance FB is now another company
 LB,BBWI,yfinance,rename,L Brands to Bath & Body Works; yfinance LB is now another company
+BBT,TFC,yfinance,rename,BB&T to Truist; yfinance BBT is now another company
+PARA,PSKY,yfinance,rename,Paramount to Paramount Skydance; yfinance PARA is now another company
