@@ -33,10 +33,12 @@ HCP,DOC,yfinance,rename,HCP to Healthpeak
 PEAK,DOC,yfinance,rename,Healthpeak ticker change
 MMC,MRSH,yfinance,rename,Marsh McLennan ticker change
 SATS,ECHO,tiingo,rename,EchoStar ticker change
-EQR,EQR,tiingo,rename,Equity Residential now Vivmark Residential; Tiingo API serves it under EQR
+EQR,,none,unrecoverable,Merged with AvalonBay into VMRK (2026); VMRK carries AvalonBay history
 SIVB,SIVBQ,tiingo,bankrupt_otc,SVB Financial; history continues under OTC ticker
 FRC,FRCB,tiingo,bankrupt_otc,First Republic; history continues under OTC ticker
 ENDP,ENDPQ,tiingo,bankrupt_otc,Endo; Tiingo ends 2024-05-01
 MNK,MNKKQ,tiingo,bankrupt_otc,Mallinckrodt; Tiingo ends 2022-07-18
 CCE,,none,unrecoverable,Coca-Cola Enterprises merged into CCEP (different entity); CCE now a recycled ticker
 ESV,,none,unrecoverable,Ensco; VAL pre-2017 is Valspar (recycled ticker)
+FB,META,yfinance,rename,Facebook to Meta; yfinance FB is now another company
+LB,BBWI,yfinance,rename,L Brands to Bath & Body Works; yfinance LB is now another company

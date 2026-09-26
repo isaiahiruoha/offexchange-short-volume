@@ -11,7 +11,7 @@ import time
 
 import pandas as pd
 
-from shortvol import prices
+from shortvol import finra, prices
 
 START, END = "2015-10-01", "2026-09-01"  # lead-in for 60-day windows
 WHICH = sys.argv[1] if len(sys.argv) > 1 else "all"
@@ -20,13 +20,15 @@ TIINGO_PACE_SECONDS = 75  # 48 requests/hour, under the 50/hour limit
 prices.load_env()
 membership = prices.load_membership("2016-01-01", "2026-08-31")
 
-# Probe yfinance for every member ticker; empty results mean "try Tiingo".
-yf_ok = set()
-for t in sorted(membership.ticker.unique()):
-    df, _ = prices.fetch_cached("yfinance", t, START, END)
-    if len(df):
-        yf_ok.add(t)
-sources = prices.resolve_sources(membership, yf_ok)
+# Use yfinance for a ticker only if it covers the ticker's time in the index.
+# Low coverage means yfinance has no history or a different company's history.
+tickers = sorted(membership.ticker.unique())
+for t in tickers:
+    prices.fetch_cached("yfinance", t, START, END)
+all_yf = pd.DataFrame({"sp500_ticker": tickers, "price_ticker": tickers, "source": "yfinance"})
+days = finra.trading_days("2016-01-01", "2026-08-31")
+cov = prices.spell_coverage(all_yf, membership, days).groupby("sp500_ticker").coverage.min()
+sources = prices.resolve_sources(membership, set(cov[cov >= 0.9].index))
 sources.to_csv(prices.RAW_DIR / "price_sources.csv", index=False)
 print(sources.groupby(["source", "relation"]).size().to_string(), flush=True)
 

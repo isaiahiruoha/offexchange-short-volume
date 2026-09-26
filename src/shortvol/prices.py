@@ -150,6 +150,27 @@ def fetch_cached(source: str, ticker: str, start: str, end: str) -> tuple[pd.Dat
     return df, True
 
 
+def spell_coverage(sources: pd.DataFrame, membership: pd.DataFrame, days: pd.DatetimeIndex):
+    """Share of each ticker's in-index trading days that have a price row.
+
+    Low coverage usually means the ticker now belongs to a different company
+    (e.g. yfinance "FB" is not Meta), so the history needs a rename-map entry.
+    """
+    src = sources.set_index("sp500_ticker")
+    rows = []
+    for m in membership.itertuples():
+        end = m.end_date if pd.notna(m.end_date) else days[-1]
+        spell = days[(days >= m.start_date) & (days <= end)]
+        if not len(spell) or m.ticker not in src.index:
+            continue
+        s = src.loc[m.ticker]
+        path = cache_path(s.source, s.price_ticker) if s.price_ticker else None
+        have = pd.read_parquet(path, columns=["date"]).date if path and path.exists() else []
+        covered = spell.isin(pd.DatetimeIndex(have)).mean()
+        rows.append((m.ticker, s.price_ticker, s.source, len(spell), round(covered, 3)))
+    return pd.DataFrame(rows, columns=["sp500_ticker", "price_ticker", "source", "days", "coverage"])
+
+
 def intraday_return(df: pd.DataFrame) -> pd.Series:
     """open(t) to close(t). Raw prices are fine: no split or dividend inside a session."""
     return df["close"] / df["open"] - 1

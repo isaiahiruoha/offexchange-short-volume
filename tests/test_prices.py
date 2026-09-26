@@ -21,3 +21,10 @@ def test_unsplit_restores_raw_prices_and_volume_before_a_4_for_1_split():
     # Tiingo raw closes: 500.04 and 499.23; raw volume 38,888,096 (Tiingo) vs 38,888,100.
     assert raw["close"].round(2).tolist() == [500.04, 499.23, 129.04]
     assert raw["volume"].tolist() == [38888100, 46907500, 225702700]
+
+
+def test_finra_symbol_uses_slash_for_class_shares():
+    from shortvol.panel import finra_symbol
+
+    assert finra_symbol("BRK.B") == "BRK/B"
+    assert finra_symbol("AAPL") == "AAPL"
