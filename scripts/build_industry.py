@@ -16,6 +16,4 @@ out.loc[hit, "cik_source"] = "manual"
 out.to_csv(prices.ROOT / "reference" / "industry.csv", index=False)
 
 print(out.ff12.value_counts().to_string())
-print("\nno SIC:", out[out.sic.isna()].sp500_ticker.tolist())
-print("\nname mismatches to review:")
-print(out[~out.name_check][["sp500_ticker", "name", "sec_name", "cik_source"]].to_string())
+print("\nby source:", out.cik_source.value_counts().to_dict())

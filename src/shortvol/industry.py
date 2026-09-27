@@ -125,14 +125,7 @@ def build(sources: pd.DataFrame) -> pd.DataFrame:
                     cik, how = c, "sec_search"
                     break
         rows.append((t, names.get(t, ""), cik, sec_name, sic, sic_to_ff12(sic, ranges), how))
-    out = pd.DataFrame(
+    return pd.DataFrame(
         rows, columns=["sp500_ticker", "name", "cik", "sec_name", "sic", "ff12", "cik_source"]
     )
-    out["name_check"] = [_same_company(a, b) for a, b in zip(out.name, out.sec_name)]
-    return out
 
-
-def _same_company(a: str, b: str) -> bool:
-    """Loose check that two company names share their first real word."""
-    wa, wb = _core_words(a), _core_words(b)
-    return bool(wa) and bool(wb) and wa[0] == wb[0]

@@ -17,7 +17,6 @@ import time
 import warnings
 from pathlib import Path
 
-import numpy as np
 import pandas as pd
 import requests
 
@@ -169,16 +168,3 @@ def spell_coverage(sources: pd.DataFrame, membership: pd.DataFrame, days: pd.Dat
         covered = spell.isin(pd.DatetimeIndex(have)).mean()
         rows.append((m.ticker, s.price_ticker, s.source, len(spell), round(covered, 3)))
     return pd.DataFrame(rows, columns=["sp500_ticker", "price_ticker", "source", "days", "coverage"])
-
-
-def intraday_return(df: pd.DataFrame) -> pd.Series:
-    """open(t) to close(t). Raw prices are fine: no split or dividend inside a session."""
-    return df["close"] / df["open"] - 1
-
-
-def close_return(df: pd.DataFrame) -> pd.Series:
-    return df["adj_close"].pct_change(fill_method=None)
-
-
-def log_dollar_volume(df: pd.DataFrame) -> pd.Series:
-    return np.log1p(df["close"] * df["volume"])

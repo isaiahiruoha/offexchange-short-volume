@@ -13,6 +13,7 @@ dependencies = [
     "scipy",
     "statsmodels",
     "matplotlib",
+    "lxml",
 ]
 
 [project.optional-dependencies]
