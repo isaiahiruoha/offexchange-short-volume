@@ -61,11 +61,11 @@ def summarize_ic(ic: pd.Series) -> dict:
     }
 
 
-def quintile_spread(df: pd.DataFrame, signal: str, target: str) -> dict:
-    """Equal-weight top-minus-bottom quintile of the signal, with turnover and break-even cost.
+def long_short(df: pd.DataFrame, signal: str, target: str) -> pd.DataFrame:
+    """Daily equal-weight top-minus-bottom quintile portfolio of the signal.
 
-    The sign follows the signal: a negative spread means low-signal stocks outperformed.
-    Break-even cost is the one-way trading cost (bps) that would erase the gross spread.
+    Returns one row per day: the portfolio's return on `target` and its turnover
+    (sum of absolute weight changes; a full flip of both legs is 4).
     """
     d = df[["date", "ticker", signal, target]].dropna(subset=[signal])
     d = d[d.groupby("date").date.transform("size") >= MIN_STOCKS]
@@ -74,15 +74,25 @@ def quintile_spread(df: pd.DataFrame, signal: str, target: str) -> dict:
     d = d.assign(leg=leg)
     d["w"] = d.leg / d.groupby(["date", "leg"]).leg.transform("size")
     d.loc[d.leg == 0, "w"] = 0.0
-    spread = (d.w * d[target]).groupby(d.date).sum(min_count=1)
     weights = d.pivot_table(index="date", columns="ticker", values="w", fill_value=0.0)
-    turnover = weights.diff().abs().sum(axis=1).iloc[1:]
-    mean_spread = spread.mean()
+    return pd.DataFrame({
+        "ret": (d.w * d[target]).groupby(d.date).sum(min_count=1),
+        "turnover": weights.diff().abs().sum(axis=1).iloc[1:],
+    })
+
+
+def quintile_spread(df: pd.DataFrame, signal: str, target: str) -> dict:
+    """Summary of `long_short`. Break-even is the one-way cost (bps) that erases the gross spread.
+
+    The sign follows the signal: a negative spread means low-signal stocks outperformed.
+    """
+    ls = long_short(df, signal, target)
+    mean_spread = ls.ret.mean()
     return {
         "spread_bps": mean_spread * 1e4,
-        "spread_nw_t": newey_west_t(spread),
-        "turnover": turnover.mean(),
-        "breakeven_bps": abs(mean_spread) / turnover.mean() * 1e4,
+        "spread_nw_t": newey_west_t(ls.ret),
+        "turnover": ls.turnover.mean(),
+        "breakeven_bps": abs(mean_spread) / ls.turnover.mean() * 1e4,
     }
 
 
