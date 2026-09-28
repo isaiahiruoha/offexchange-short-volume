@@ -8,7 +8,7 @@ The **1-day short volume ratio** (short volume / off-exchange volume on day t) p
 
 - It holds after removing day-t and 5-day returns (reversal), size, volume and industry.
 - It met every pre-registered criterion, including an untouched 2024-2026 holdout, and survives a correction for the eight signal-target combinations tested.
-- The effect lasts one session, is strongest in large caps, after down days and where more volume trades off-exchange, and is not explained by standard factors (alpha 2.0 bps/day, t 3.7).
+- The effect lasts one session, is strongest in the most heavily traded names (by 20-day dollar volume), after down days and where more volume trades off-exchange, and is not explained by standard factors (alpha 2.0 bps/day, t 3.7).
 - It is a micro-signal: about 1.8 bps/day gross, break-even cost about 1 bp. It is useful as one input among many, not on its own.
 
 The pre-registered primary, a 5-day average ratio, did not predict next-day returns.
